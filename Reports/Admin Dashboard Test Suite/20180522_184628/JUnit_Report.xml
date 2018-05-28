@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin Dashboard Test Suite" time="4" tests="0" failures="3" errors="0">
+   <testsuite name="Admin Dashboard Test Suite" tests="0" failures="3" errors="0" time="4" timestamp="2018-05-22 18:46:29" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Admin Dashboard Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\RoostifyCore\\Reports\\Admin Dashboard Test Suite\\20180522_184628"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\RoostifyCore\\Reports\\Admin Dashboard Test Suite\\20180522_184628\\execution0.log, D:\\1_Roostify\\Automation\\RoostifyCore\\Reports\\Admin Dashboard Test Suite\\20180522_184628\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Copy Referral Link" classname="Test Cases/Admin Dashboard/Copy Referral Link" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-05-22 18:46:29 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Copy Referral Link: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:30 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Sign In' (Root cause: Call Test Case 'Test Cases/Sign In' failed)
+
+2018-05-22 18:46:30 - [TEST_CASE][FAILED] - Test Cases/Sign In: Test Cases/Sign In FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:30 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:31 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:31 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Sign In' (Root cause: Call Test Case 'Test Cases/Sign In' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-22 18:46:29 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Copy Referral Link: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Dashboard/Create Loan Manually" classname="Test Cases/Admin Dashboard/Create Loan Manually" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-05-22 18:46:31 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Create Loan Manually: Test Cases/Admin Dashboard/Create Loan Manually FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:31 - [TEST_STEP][PASSED] - Statement - FirstName = "kaly12": null
+
+2018-05-22 18:46:31 - [TEST_STEP][PASSED] - Statement - LastName = "kachi": null
+
+2018-05-22 18:46:31 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Sign In' (Root cause: Call Test Case 'Test Cases/Sign In' failed)
+
+2018-05-22 18:46:31 - [TEST_CASE][FAILED] - Test Cases/Sign In: Test Cases/Sign In FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:31 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:32 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:32 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Sign In' (Root cause: Call Test Case 'Test Cases/Sign In' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-22 18:46:31 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Create Loan Manually: Test Cases/Admin Dashboard/Create Loan Manually FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Dashboard/Invite Borrower" classname="Test Cases/Admin Dashboard/Invite Borrower" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-05-22 18:46:32 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Invite Borrower: Test Cases/Admin Dashboard/Invite Borrower FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:32 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Sign In' (Root cause: Call Test Case 'Test Cases/Sign In' failed)
+
+2018-05-22 18:46:32 - [TEST_CASE][FAILED] - Test Cases/Sign In: Test Cases/Sign In FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:32 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:33 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-05-22 18:46:33 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Sign In' (Root cause: Call Test Case 'Test Cases/Sign In' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-22 18:46:32 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Invite Borrower: Test Cases/Admin Dashboard/Invite Borrower FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-22 18:46:29 - [TEST_SUITE][FAILED] - Admin Dashboard Test Suite: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-out>
+      <system-err><![CDATA[2018-05-22 18:46:29 - [TEST_SUITE][FAILED] - Admin Dashboard Test Suite: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to open browser with url: 'https://roostify-dev-pr-6203.herokuapp.com/' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+   </testsuite>
+</testsuites>

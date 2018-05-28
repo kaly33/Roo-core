@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Fix_Issues</name>
+   <tag></tag>
+   <elementGuidId>f14fc2e0-ab7b-46fc-aac4-bb082d13eb02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='loan_application_form']/div[11]/div/table[5]/tbody/tr/td[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='loan_application_form']/div[11]/div/table[5]/tbody/tr/td[2]/button</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Admin Dashboard Test Suite,,,2018-05-22 18:46:42,2018-05-22 18:46:43,1.548s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Copy Referral Link,,,2018-05-22 18:46:42,2018-05-22 18:46:43,0.712s,FAILED
+callTestCase,,,2018-05-22 18:46:42,2018-05-22 18:46:43,0.475s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Create Loan Manually,,,2018-05-22 18:46:43,2018-05-22 18:46:43,0.291s,FAILED
+"Statement - FirstName = ""kaly12""",,,2018-05-22 18:46:43,2018-05-22 18:46:43,0.002s,PASSED
+"Statement - LastName = ""kachi""",,,2018-05-22 18:46:43,2018-05-22 18:46:43,0.001s,PASSED
+callTestCase,,,2018-05-22 18:46:43,2018-05-22 18:46:43,0.074s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Invite Borrower,,,2018-05-22 18:46:43,2018-05-22 18:46:43,0.266s,FAILED
+callTestCase,,,2018-05-22 18:46:43,2018-05-22 18:46:43,0.074s,FAILED
