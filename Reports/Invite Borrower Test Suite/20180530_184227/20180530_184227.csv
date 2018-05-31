@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,,,2018-05-30 18:42:29,2018-05-30 18:42:35,6.107s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Invite Borrower,,,2018-05-30 18:42:32,2018-05-30 18:42:35,2.739s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-05-30 18:42:32,2018-05-30 18:42:32,0.024s,PASSED
+callTestCase,,,2018-05-30 18:42:32,2018-05-30 18:42:33,0.388s,FAILED
+Start listener action : sampleAfterTestCase,,,2018-05-30 18:42:33,2018-05-30 18:42:33,0.009s,PASSED

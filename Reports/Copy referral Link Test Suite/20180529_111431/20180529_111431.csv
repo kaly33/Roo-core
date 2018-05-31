@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,Chrome 66.0.3359.181,,2018-05-29 11:14:33,2018-05-29 11:14:52,19.029s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Copy Referral Link,Chrome 66.0.3359.181,,2018-05-29 11:14:33,2018-05-29 11:14:52,18.578s,PASSED
+callTestCase,Chrome 66.0.3359.181,,2018-05-29 11:14:34,2018-05-29 11:14:47,13.778s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-29 11:14:47,2018-05-29 11:14:48,0.363s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-29 11:14:48,2018-05-29 11:14:48,0.669s,PASSED
+waitForElementClickable,Chrome 66.0.3359.181,,2018-05-29 11:14:48,2018-05-29 11:14:48,0.083s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-29 11:14:48,2018-05-29 11:14:49,0.226s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-05-29 11:14:49,2018-05-29 11:14:49,0.823s,PASSED

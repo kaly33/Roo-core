@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Loan Manually Test Suite,Chrome 66.0.3359.181,,2018-05-29 15:14:48,2018-05-29 15:15:06,18.700s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Create Loan Manually,Chrome 66.0.3359.181,,2018-05-29 15:14:48,2018-05-29 15:15:06,18.235s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 66.0.3359.181,,2018-05-29 15:14:48,2018-05-29 15:14:48,0.013s,PASSED
+"Statement - FirstName = ""kaly12""",Chrome 66.0.3359.181,,2018-05-29 15:14:49,2018-05-29 15:14:49,0.007s,PASSED
+"Statement - LastName = ""kachi""",Chrome 66.0.3359.181,,2018-05-29 15:14:49,2018-05-29 15:14:49,0.003s,PASSED
+callTestCase,Chrome 66.0.3359.181,,2018-05-29 15:14:49,2018-05-29 15:15:03,13.952s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-29 15:15:03,2018-05-29 15:15:03,0.132s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-29 15:15:03,2018-05-29 15:15:03,0.628s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 15:15:03,2018-05-29 15:15:04,0.326s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 66.0.3359.181,,2018-05-29 15:15:04,2018-05-29 15:15:04,0.681s,PASSED

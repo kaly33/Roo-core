@@ -1,0 +1,76 @@
+1
+00:00:00,161 --> 00:00:00,163
+1. callTestCase
+
+2
+00:00:00,500 --> 00:00:00,501
+1. Statement - a = 3
+
+3
+00:00:00,501 --> 00:00:00,503
+5. openBrowser
+
+4
+00:00:20,827 --> 00:00:20,828
+9. maximizeWindow
+
+5
+00:00:21,033 --> 00:00:21,036
+13. Statement - out.println("Value of a= " + a)
+
+6
+00:00:21,045 --> 00:00:21,047
+17. setText
+
+7
+00:00:21,437 --> 00:00:21,438
+21. setText
+
+8
+00:00:21,852 --> 00:00:21,853
+25. click
+
+9
+00:00:25,649 --> 00:00:25,650
+5. click
+
+10
+00:00:26,030 --> 00:00:26,031
+9. takeScreenshot
+
+11
+00:00:26,566 --> 00:00:26,568
+13. takeScreenshot
+
+12
+00:00:26,914 --> 00:00:26,915
+17. waitForElementVisible
+
+13
+00:00:27,013 --> 00:00:27,015
+21. waitForElementClickable
+
+14
+00:00:27,062 --> 00:00:27,064
+25. click
+
+15
+00:00:27,176 --> 00:00:27,177
+29. closeBrowser
+
+16
+00:00:28,053 --> 00:00:28,053
+1. Statement - println(testCaseContext.getTestCaseId())
+
+17
+00:00:28,054 --> 00:00:28,054
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+18
+00:00:28,055 --> 00:00:28,056
+9. closeBrowser
+
+19
+00:00:30,122 --> 00:00:30,123
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

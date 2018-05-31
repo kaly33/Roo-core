@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,Firefox 60.0,,2018-05-29 14:46:30,2018-05-29 14:48:39,2m - 8.771s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Invite Borrower,Firefox 60.0,,2018-05-29 14:46:31,2018-05-29 14:48:39,2m - 8.323s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 60.0,,2018-05-29 14:46:31,2018-05-29 14:46:31,0.008s,PASSED
+callTestCase,Firefox 60.0,,2018-05-29 14:46:31,2018-05-29 14:47:25,53.843s,PASSED
+"Statement - out.println(""Value of BorrowerEmail1= "" + BorrowerEmail2)",Firefox 60.0,,2018-05-29 14:47:25,2018-05-29 14:47:25,0.001s,PASSED
+waitForElementClickable,Firefox 60.0,,2018-05-29 14:47:25,2018-05-29 14:47:25,0.724s,PASSED
+click,Firefox 60.0,,2018-05-29 14:47:25,2018-05-29 14:47:26,0.260s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-05-29 14:47:26,2018-05-29 14:47:26,0.541s,PASSED
+setText,Firefox 60.0,,2018-05-29 14:47:26,2018-05-29 14:47:26,0.163s,PASSED
+click,Firefox 60.0,,2018-05-29 14:47:26,2018-05-29 14:47:29,2.664s,PASSED
+callTestCase,Firefox 60.0,,2018-05-29 14:47:29,2018-05-29 14:48:33,1m - 4.425s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 60.0,,2018-05-29 14:48:33,2018-05-29 14:48:34,0.284s,PASSED

@@ -1,0 +1,24 @@
+1
+00:00:00,165 --> 00:00:00,165
+1. callTestCase
+
+2
+00:00:00,415 --> 00:00:00,416
+1. setText
+
+3
+00:00:26,831 --> 00:00:26,833
+1. Statement - println(testCaseContext.getTestCaseId())
+
+4
+00:00:26,834 --> 00:00:26,835
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+5
+00:00:28,915 --> 00:00:28,916
+1. Statement - println(testSuiteContext.getTestSuiteId())
+
+6
+00:00:28,916 --> 00:00:28,917
+5. closeBrowser
+

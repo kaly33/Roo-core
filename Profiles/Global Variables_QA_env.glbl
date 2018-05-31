@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Global Variables_QA_env</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kkachhi+test11@roostify.com'</initValue>
+      <name>BorrowerEmail1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kkachhi+test15@roostify.com'</initValue>
+      <name>BorrowerEmail2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kkachhi+test12@roostify.com'</initValue>
+      <name>BorrowerEmail3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kaly'</initValue>
+      <name>Borrower1FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kachhi'</initValue>
+      <name>Borrower1LastName</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

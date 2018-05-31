@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Loan Manually Test Suite,Firefox 60.0,,2018-05-29 11:55:02,2018-05-29 11:55:25,22.457s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Create Loan Manually,Firefox 60.0,,2018-05-29 11:55:03,2018-05-29 11:55:25,22.039s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 60.0,,2018-05-29 11:55:03,2018-05-29 11:55:03,0.008s,PASSED
+"Statement - FirstName = ""kaly12""",Firefox 60.0,,2018-05-29 11:55:03,2018-05-29 11:55:03,0.009s,PASSED
+"Statement - LastName = ""kachi""",Firefox 60.0,,2018-05-29 11:55:03,2018-05-29 11:55:03,0.003s,PASSED
+callTestCase,Firefox 60.0,,2018-05-29 11:55:03,2018-05-29 11:55:21,17.853s,PASSED
+click,Firefox 60.0,,2018-05-29 11:55:21,2018-05-29 11:55:21,0.275s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-05-29 11:55:21,2018-05-29 11:55:22,0.641s,PASSED
+setText,Firefox 60.0,,2018-05-29 11:55:22,2018-05-29 11:55:22,0.122s,PASSED
+setText,Firefox 60.0,,2018-05-29 11:55:22,2018-05-29 11:55:22,0.075s,PASSED
+setText,Firefox 60.0,,2018-05-29 11:55:22,2018-05-29 11:55:22,0.054s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-05-29 11:55:22,2018-05-29 11:55:22,0.051s,PASSED
+click,Firefox 60.0,,2018-05-29 11:55:22,2018-05-29 11:55:23,0.259s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-29 11:55:23,2018-05-29 11:55:23,0.034s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-05-29 11:55:23,2018-05-29 11:55:23,0.023s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 60.0,,2018-05-29 11:55:23,2018-05-29 11:55:23,0.269s,PASSED

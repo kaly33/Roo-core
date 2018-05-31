@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invite Borrower Test Suite" time="128" tests="0" failures="1" errors="0">
+   <testsuite name="Invite Borrower Test Suite" tests="0" failures="1" errors="0" time="128" timestamp="2018-05-29 14:46:30" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Invite Borrower Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180529_144109"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180529_144109\\execution0.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180529_144109\\1527585513908.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="cbf456fb-7857-4075-9e97-8682b0150cce"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Invite Borrower" classname="Test Cases/Admin Dashboard/Invite Borrower" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)"/>
+         <system-out><![CDATA[2018-05-29 14:46:31 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Invite Borrower: Test Cases/Admin Dashboard/Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)
+
+2018-05-29 14:46:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListeners.sampleBeforeTestCase(...)' completed.
+
+2018-05-29 14:46:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-29 14:46:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListeners.sampleBeforeTestCase(...)' completed.
+
+2018-05-29 14:46:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sign In' successfully
+
+2018-05-29 14:46:31 - [TEST_CASE][PASSED] - Test Cases/Sign In: Test Cases/Sign In
+
+2018-05-29 14:46:31 - [TEST_STEP][PASSED] - Statement - a = 3: null
+
+2018-05-29 14:46:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://roostify-dev-pr-6203.herokuapp.com/'
+
+2018-05-29 14:47:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://roostify-dev-pr-6203.herokuapp.com/'
+
+2018-05-29 14:47:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-29 14:47:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-29 14:47:19 - [TEST_STEP][PASSED] - Statement - out.println("Value of a= " + a): null
+
+2018-05-29 14:47:19 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+admin@roostify.com' is set on object 'Object Repository/Sign In/input_useremail'
+
+2018-05-29 14:47:20 - [MESSAGE][PASSED] - Text 'kkachhi+admin@roostify.com' is set on object 'Object Repository/Sign In/input_useremail'
+
+2018-05-29 14:47:20 - [TEST_STEP][PASSED] - setText: Text 'Kal@3333' is set on object 'Object Repository/Sign In/input_userpassword'
+
+2018-05-29 14:47:20 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Sign In/input_userpassword'
+
+2018-05-29 14:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign In/button_Sign in' is clicked on
+
+2018-05-29 14:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/button_Sign in' is clicked on
+
+2018-05-29 14:47:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign In' successfully
+
+2018-05-29 14:47:25 - [TEST_STEP][PASSED] - Statement - out.println("Value of BorrowerEmail1= " + BorrowerEmail2): null
+
+2018-05-29 14:47:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Invite Borrower/img' is clickable
+
+2018-05-29 14:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/img' is clickable
+
+2018-05-29 14:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/img' is clicked on
+
+2018-05-29 14:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/img' is clicked on
+
+2018-05-29 14:47:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail' is visible
+
+2018-05-29 14:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail' is visible
+
+2018-05-29 14:47:26 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test15@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail'
+
+2018-05-29 14:47:26 - [MESSAGE][PASSED] - Text 'kkachhi+test15@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail'
+
+2018-05-29 14:47:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' is clicked on
+
+2018-05-29 14:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' is clicked on
+
+2018-05-29 14:47:29 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Gmail Login' (Root cause: Call Test Case 'Test Cases/Gmail Login' failed)
+
+2018-05-29 14:47:29 - [TEST_CASE][FAILED] - Test Cases/Gmail Login: Test Cases/Gmail Login FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)
+
+2018-05-29 14:47:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'gmail.com'
+
+2018-05-29 14:47:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-29 14:48:31 - [MESSAGE][PASSED] - Browser is opened with url: 'gmail.com'
+
+2018-05-29 14:48:31 - [TEST_STEP][PASSED] - setText: Text 'kkachhi@roostify.com' is set on object 'Object Repository/Admin Dashboard/Page_Gmail/input_email'
+
+2018-05-29 14:48:32 - [MESSAGE][PASSED] - Text 'kkachhi@roostify.com' is set on object 'Object Repository/Admin Dashboard/Page_Gmail/input_email'
+
+2018-05-29 14:48:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Page_Gmail/Next button' is clicked on
+
+2018-05-29 14:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Page_Gmail/Next button' is clicked on
+
+2018-05-29 14:48:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' is clickable
+
+2018-05-29 14:48:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' is clickable
+
+2018-05-29 14:48:33 - [TEST_STEP][FAILED] - setText: Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)
+
+2018-05-29 14:48:33 - [MESSAGE][FAILED] - Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180529_144109\\1527585513908.png]]
+
+2018-05-29 14:48:33 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Gmail Login' (Root cause: Call Test Case 'Test Cases/Gmail Login' failed)
+
+2018-05-29 14:48:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-05-29 14:48:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-29 14:48:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-05-29 14:48:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-29 14:48:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-29 14:46:31 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Invite Borrower: Test Cases/Admin Dashboard/Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-29 14:46:30 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)]]></system-out>
+      <system-err><![CDATA[2018-05-29 14:46:30 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15320, moz:profile: C:\Users\kalyanik\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cbf456fb-7857-4075-9e97-8682b0150cce)]]></system-err>
+   </testsuite>
+</testsuites>

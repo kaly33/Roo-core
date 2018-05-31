@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Loan Manually Test Suite,Chrome 66.0.3359.181,,2018-05-29 15:20:02,2018-05-29 15:20:24,21.109s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Create Loan Manually,Chrome 66.0.3359.181,,2018-05-29 15:20:03,2018-05-29 15:20:24,20.645s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 66.0.3359.181,,2018-05-29 15:20:03,2018-05-29 15:20:03,0.012s,PASSED
+"Statement - FirstName = ""kaly12""",Chrome 66.0.3359.181,,2018-05-29 15:20:03,2018-05-29 15:20:03,0.007s,PASSED
+"Statement - LastName = ""kachi""",Chrome 66.0.3359.181,,2018-05-29 15:20:03,2018-05-29 15:20:03,0.004s,PASSED
+callTestCase,Chrome 66.0.3359.181,,2018-05-29 15:20:03,2018-05-29 15:20:19,15.868s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-29 15:20:19,2018-05-29 15:20:19,0.151s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-29 15:20:19,2018-05-29 15:20:20,0.590s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 15:20:20,2018-05-29 15:20:20,0.220s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 15:20:20,2018-05-29 15:20:20,0.136s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 15:20:20,2018-05-29 15:20:20,0.191s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-29 15:20:20,2018-05-29 15:20:21,0.043s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-29 15:20:21,2018-05-29 15:20:21,0.075s,PASSED
+verifyElementPresent,Chrome 66.0.3359.181,,2018-05-29 15:20:21,2018-05-29 15:20:21,0.118s,PASSED
+verifyElementPresent,Chrome 66.0.3359.181,,2018-05-29 15:20:21,2018-05-29 15:20:21,0.040s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 66.0.3359.181,,2018-05-29 15:20:21,2018-05-29 15:20:21,0.715s,PASSED

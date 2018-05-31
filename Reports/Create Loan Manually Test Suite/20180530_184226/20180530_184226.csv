@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Loan Manually Test Suite,Firefox 47.0,,2018-05-30 18:42:29,2018-05-30 18:42:52,23.278s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Create Loan Manually,Firefox 47.0,,2018-05-30 18:42:43,2018-05-30 18:42:52,9.448s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-05-30 18:42:43,2018-05-30 18:42:43,0.012s,PASSED
+"Statement - FirstName = ""kaly12""",Firefox 47.0,,2018-05-30 18:42:43,2018-05-30 18:42:43,0.009s,PASSED
+"Statement - LastName = ""kachi""",Firefox 47.0,,2018-05-30 18:42:43,2018-05-30 18:42:43,0.002s,PASSED
+callTestCase,Firefox 47.0,,2018-05-30 18:42:43,2018-05-30 18:42:49,6.089s,PASSED
+click,Firefox 47.0,,2018-05-30 18:42:49,2018-05-30 18:42:50,0.334s,PASSED
+waitForElementVisible,Firefox 47.0,,2018-05-30 18:42:50,2018-05-30 18:42:50,0.382s,PASSED
+setText,Firefox 47.0,,2018-05-30 18:42:50,2018-05-30 18:42:50,0.247s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-05-30 18:42:50,2018-05-30 18:42:50,0.005s,PASSED

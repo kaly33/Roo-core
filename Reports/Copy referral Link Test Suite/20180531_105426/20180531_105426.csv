@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,IE 11,,2018-05-31 10:54:28,2018-05-31 10:55:02,34.217s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Copy Referral Link,IE 11,,2018-05-31 10:54:33,2018-05-31 10:55:02,28.978s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2018-05-31 10:54:33,2018-05-31 10:54:33,0.006s,PASSED
+callTestCase,IE 11,,2018-05-31 10:54:33,2018-05-31 10:54:59,26.631s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2018-05-31 10:55:00,2018-05-31 10:55:00,0.008s,PASSED

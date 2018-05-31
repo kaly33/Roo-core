@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,Firefox 47.0,,2018-05-31 12:16:49,2018-05-31 12:17:47,58.234s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Copy Referral Link,Firefox 47.0,,2018-05-31 12:17:02,2018-05-31 12:17:47,44.894s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-05-31 12:17:02,2018-05-31 12:17:13,11.126s,PASSED
+callTestCase,Firefox 47.0,,2018-05-31 12:17:13,2018-05-31 12:17:45,31.136s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-05-31 12:17:45,2018-05-31 12:17:45,0.373s,PASSED

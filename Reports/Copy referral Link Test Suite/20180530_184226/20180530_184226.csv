@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,Chrome 66.0.3359.181,,2018-05-30 18:42:29,2018-05-30 18:42:51,21.186s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Copy Referral Link,Chrome 66.0.3359.181,,2018-05-30 18:42:39,2018-05-30 18:42:51,11.947s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 66.0.3359.181,,2018-05-30 18:42:39,2018-05-30 18:42:39,0.007s,PASSED
+callTestCase,Chrome 66.0.3359.181,,2018-05-30 18:42:39,2018-05-30 18:42:46,6.913s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-30 18:42:46,2018-05-30 18:42:46,0.135s,PASSED
+takeScreenshot,Chrome 66.0.3359.181,,2018-05-30 18:42:46,2018-05-30 18:42:47,1.186s,PASSED
+takeScreenshot,Chrome 66.0.3359.181,,2018-05-30 18:42:47,2018-05-30 18:42:47,0.432s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-30 18:42:47,2018-05-30 18:42:48,0.082s,PASSED
+waitForElementClickable,Chrome 66.0.3359.181,,2018-05-30 18:42:48,2018-05-30 18:42:48,0.110s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-30 18:42:48,2018-05-30 18:42:48,0.145s,PASSED
+closeBrowser,Chrome 66.0.3359.181,,2018-05-30 18:42:48,2018-05-30 18:42:49,0.719s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 66.0.3359.181,,2018-05-30 18:42:49,2018-05-30 18:42:49,0.006s,PASSED

@@ -1,0 +1,68 @@
+1
+00:00:00,143 --> 00:00:00,145
+1. callTestCase
+
+2
+00:00:00,569 --> 00:00:00,569
+1. setText
+
+3
+00:00:00,854 --> 00:00:00,856
+5. setText
+
+4
+00:00:01,007 --> 00:00:01,008
+9. click
+
+5
+00:00:05,448 --> 00:00:05,449
+13. Statement - fullName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([AdminFirstName, " ", AdminLastName], STOP_ON_FAILURE)
+
+6
+00:00:05,451 --> 00:00:05,452
+17. verifyElementText
+
+7
+00:00:05,570 --> 00:00:05,571
+5. click
+
+8
+00:00:05,782 --> 00:00:05,783
+9. takeScreenshot
+
+9
+00:00:06,277 --> 00:00:06,278
+13. takeScreenshot
+
+10
+00:00:06,712 --> 00:00:06,713
+17. waitForElementVisible
+
+11
+00:00:07,032 --> 00:00:07,033
+21. waitForElementClickable
+
+12
+00:00:07,672 --> 00:00:07,673
+25. click
+
+13
+00:00:07,883 --> 00:00:07,884
+29. closeBrowser
+
+14
+00:00:08,702 --> 00:00:08,703
+1. Statement - println(testCaseContext.getTestCaseId())
+
+15
+00:00:08,704 --> 00:00:08,704
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+16
+00:00:10,779 --> 00:00:10,783
+1. Statement - println(testSuiteContext.getTestSuiteId())
+
+17
+00:00:10,784 --> 00:00:10,786
+5. closeBrowser
+

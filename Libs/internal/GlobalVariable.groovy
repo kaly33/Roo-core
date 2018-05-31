@@ -36,6 +36,21 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object AdminFirstName
+     
+    /**
+     * <p></p>
+     */
+    public static Object AdminLastName
+     
+    /**
+     * <p></p>
+     */
+    public static Object BaseURL
+     
+    /**
+     * <p></p>
+     */
     public static Object BorrowerEmail1
      
     /**
@@ -51,18 +66,18 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object FirstName
+    public static Object Borrower1FirstName
      
     /**
      * <p></p>
      */
-    public static Object LastName
+    public static Object Borrower1LastName
      
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['AdminEmail' : 'kkachhi+admin@roostify.com', 'GmailEmail' : 'kkachhi@roostify.com', 'Password' : 'Kal@3333', 'GmailPassword' : 'kaly@33333'])
-        allVariables.put('Global Variables', allVariables['default'] + ['BorrowerEmail1' : 'kkachhi+test11@roostify.com', 'BorrowerEmail2' : 'kkachhi+test12@roostify.com', 'BorrowerEmail3' : 'kkachhi+test13@roostify.com', 'FirstName' : 'Kaly', 'LastName' : 'Kachhi'])
+        allVariables.put('default', ['AdminEmail' : 'kkachhi+admin@roostify.com', 'GmailEmail' : 'kkachhi@roostify.com', 'Password' : 'Kal@3333', 'GmailPassword' : 'kaly@33333', 'AdminFirstName' : 'Kalyani', 'AdminLastName' : 'Admin', 'BaseURL' : 'https://roostify-dev-pr-6203.herokuapp.com/'])
+        allVariables.put('Global Variables_QA_env', allVariables['default'] + ['BorrowerEmail1' : 'kkachhi+test11@roostify.com', 'BorrowerEmail2' : 'kkachhi+test15@roostify.com', 'BorrowerEmail3' : 'kkachhi+test12@roostify.com', 'Borrower1FirstName' : 'Kaly', 'Borrower1LastName' : 'Kachhi'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -71,11 +86,14 @@ public class GlobalVariable {
         GmailEmail = selectedVariables['GmailEmail']
         Password = selectedVariables['Password']
         GmailPassword = selectedVariables['GmailPassword']
+        AdminFirstName = selectedVariables['AdminFirstName']
+        AdminLastName = selectedVariables['AdminLastName']
+        BaseURL = selectedVariables['BaseURL']
         BorrowerEmail1 = selectedVariables['BorrowerEmail1']
         BorrowerEmail2 = selectedVariables['BorrowerEmail2']
         BorrowerEmail3 = selectedVariables['BorrowerEmail3']
-        FirstName = selectedVariables['FirstName']
-        LastName = selectedVariables['LastName']
+        Borrower1FirstName = selectedVariables['Borrower1FirstName']
+        Borrower1LastName = selectedVariables['Borrower1LastName']
         
     }
 }

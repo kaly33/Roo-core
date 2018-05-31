@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,Firefox 60.0,,2018-05-29 14:41:56,2018-05-29 14:44:37,2m - 41.386s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Copy Referral Link,Firefox 60.0,,2018-05-29 14:42:04,2018-05-29 14:44:37,2m - 32.537s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 60.0,,2018-05-29 14:42:04,2018-05-29 14:42:04,0.009s,PASSED
+callTestCase,Firefox 60.0,,2018-05-29 14:42:09,2018-05-29 14:44:30,2m - 21.031s,PASSED
+click,Firefox 60.0,,2018-05-29 14:44:30,2018-05-29 14:44:31,0.601s,PASSED
+takeScreenshot,Firefox 60.0,,2018-05-29 14:44:31,2018-05-29 14:44:32,0.556s,PASSED
+takeScreenshot,Firefox 60.0,,2018-05-29 14:44:32,2018-05-29 14:44:32,0.120s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-05-29 14:44:32,2018-05-29 14:44:33,1.583s,PASSED
+waitForElementClickable,Firefox 60.0,,2018-05-29 14:44:33,2018-05-29 14:44:34,0.221s,PASSED
+click,Firefox 60.0,,2018-05-29 14:44:34,2018-05-29 14:44:34,0.275s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-29 14:44:34,2018-05-29 14:44:34,0.301s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 60.0,,2018-05-29 14:44:34,2018-05-29 14:44:34,0.012s,PASSED

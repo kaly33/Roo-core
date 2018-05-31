@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Copy referral Link Test Suite" time="34" tests="0" failures="1" errors="0">
+   <testsuite name="Copy referral Link Test Suite" tests="0" failures="1" errors="0" time="34" timestamp="2018-05-31 10:54:28" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Copy referral Link Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Copy referral Link Test Suite\\20180531_105426"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Copy referral Link Test Suite\\20180531_105426\\execution0.log, D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Copy referral Link Test Suite\\20180531_105426\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="83b19565-d7c2-4482-9863-957ad2d7a048"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Copy Referral Link" classname="Test Cases/Admin Dashboard/Copy Referral Link" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})"/>
+         <system-out><![CDATA[2018-05-31 10:54:33 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Copy Referral Link: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})
+
+2018-05-31 10:54:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListeners.sampleBeforeTestCase(...)' completed.
+
+2018-05-31 10:54:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-31 10:54:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListeners.sampleBeforeTestCase(...)' completed.
+
+2018-05-31 10:54:33 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Sign In' (Root cause: Call Test Case 'Test Cases/Common/Sign In' failed)
+
+2018-05-31 10:54:33 - [TEST_CASE][FAILED] - Test Cases/Common/Sign In: Test Cases/Common/Sign In FAILED because (of) Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})
+
+2018-05-31 10:54:33 - [TEST_STEP][FAILED] - setText: Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})
+
+2018-05-31 10:54:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-31 10:54:59 - [MESSAGE][FAILED] - Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})
+
+2018-05-31 10:54:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Sign In' (Root cause: Call Test Case 'Test Cases/Common/Sign In' failed)
+
+2018-05-31 10:55:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.
+
+2018-05-31 10:55:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-31 10:55:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-31 10:54:33 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Copy Referral Link: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-31 10:54:28 - [TEST_SUITE][FAILED] - Copy referral Link Test Suite: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})]]></system-out>
+      <system-err><![CDATA[2018-05-31 10:54:28 - [TEST_SUITE][FAILED] - Copy referral Link Test Suite: Test Cases/Admin Dashboard/Copy Referral Link FAILED because (of) Unable to set text 'kkachhi+admin@roostify.com' of object 'Object Repository/Sign In/input_useremail' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1119/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 83b19565-d7c2-4482-9863-957ad2d7a048
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Email' and @type = 'text' and @name = 'user[email]' and @id = 'user_email']})]]></system-err>
+   </testsuite>
+</testsuites>
