@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='loan_application_form']/div[10]/div[5]/div[4]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='loan_application_form']/div[10]/div[3]/div[5]/button[2]</value>
+      <value>.//*[@id='loan_application_form']/div[10]/div[5]/div[4]/button[2]</value>
    </webElementProperties>
 </WebElementEntity>

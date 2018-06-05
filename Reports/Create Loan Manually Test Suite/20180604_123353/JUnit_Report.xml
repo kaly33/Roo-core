@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Loan Manually Test Suite" time="64" tests="0" failures="1" errors="0">
+   <testsuite name="Create Loan Manually Test Suite" tests="0" failures="1" errors="0" time="64" timestamp="2018-06-04 12:33:55" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Create Loan Manually Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Create Loan Manually Test Suite\\20180604_123353"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Create Loan Manually Test Suite\\20180604_123353\\execution0.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Create Loan Manually Test Suite\\20180604_123353\\1528095897583.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="2436263a-5da7-4f1b-83d9-ee633306e237"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually" classname="Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)"/>
+         <system-out><![CDATA[2018-06-04 12:33:55 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually: Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)
+
+2018-06-04 12:33:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2018-06-04 12:33:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-04 12:33:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-04 12:33:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-04 12:34:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-04 12:34:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-04 12:34:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-04 12:34:09 - [TEST_STEP][PASSED] - Statement - FirstName = "kaly1": null
+
+2018-06-04 12:34:09 - [TEST_STEP][PASSED] - Statement - LastName = "kachi": null
+
+2018-06-04 12:34:09 - [TEST_STEP][PASSED] - com.common.util.LoginHelper.LoginWithAdmin: com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-04 12:34:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-04 12:34:09 - [MESSAGE][PASSED] - Text 'kkachhi+admin@roostify.com' is set on object 'Object Repository/Sign In/input_useremail'
+
+2018-06-04 12:34:10 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Sign In/input_userpassword'
+
+2018-06-04 12:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/button_Sign in' is clicked on
+
+2018-06-04 12:34:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin Settings/Admin settings dropdown/Profile dropdown' are matched.
+
+2018-06-04 12:34:15 - [MESSAGE][PASSED] - com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-04 12:34:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Create Loan Manually/img' is clicked on
+
+2018-06-04 12:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Create Loan Manually/img' is clicked on
+
+2018-06-04 12:34:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Admin Dashboard/Create Loan Manually/input_email' is visible
+
+2018-06-04 12:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Create Loan Manually/input_email' is visible
+
+2018-06-04 12:34:15 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test3@roostify.com' is set on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_email'
+
+2018-06-04 12:34:16 - [MESSAGE][PASSED] - Text 'kkachhi+test3@roostify.com' is set on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_email'
+
+2018-06-04 12:34:16 - [TEST_STEP][PASSED] - setText: Text 'kaly1' is set on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_first_name'
+
+2018-06-04 12:34:16 - [MESSAGE][PASSED] - Text 'kaly1' is set on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_first_name'
+
+2018-06-04 12:34:16 - [TEST_STEP][PASSED] - setText: Text 'kachi' is set on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_last_name'
+
+2018-06-04 12:34:16 - [MESSAGE][PASSED] - Text 'kachi' is set on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_last_name'
+
+2018-06-04 12:34:16 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found
+
+2018-06-04 12:34:26 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found
+
+2018-06-04 12:34:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)
+
+2018-06-04 12:34:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Create Loan Manually Test Suite\\20180604_123353\\1528095897583.png]]
+
+2018-06-04 12:34:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-04 12:34:57 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-04 12:34:57 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-04 12:34:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-04 12:34:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-06-04 12:33:55 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually: Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 12:33:55 - [TEST_SUITE][FAILED] - Create Loan Manually Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-04 12:33:55 - [TEST_SUITE][FAILED] - Create Loan Manually Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Create Loan Manually/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Create' and @class = 'btn btn-success']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

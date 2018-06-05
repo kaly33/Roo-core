@@ -1,0 +1,64 @@
+1
+00:00:00,134 --> 00:00:00,135
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:05,896 --> 00:00:05,898
+5. waitForElementClickable
+
+3
+00:00:05,960 --> 00:00:05,961
+9. click
+
+4
+00:00:06,058 --> 00:00:06,059
+13. waitForElementVisible
+
+5
+00:00:06,619 --> 00:00:06,620
+17. setText
+
+6
+00:00:06,798 --> 00:00:06,798
+21. click
+
+7
+00:00:08,376 --> 00:00:08,377
+25. callTestCase
+
+8
+00:00:08,545 --> 00:00:08,545
+1. openBrowser
+
+9
+00:00:13,065 --> 00:00:13,069
+5. setText
+
+10
+00:00:13,435 --> 00:00:13,435
+9. click
+
+11
+00:00:13,677 --> 00:00:13,678
+13. waitForElementClickable
+
+12
+00:00:14,225 --> 00:00:14,225
+17. setText
+
+13
+00:00:14,380 --> 00:00:14,381
+21. click
+
+14
+00:00:14,826 --> 00:00:14,826
+1. Statement - println(testCaseContext.getTestCaseId())
+
+15
+00:00:14,827 --> 00:00:14,830
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+16
+00:00:16,928 --> 00:00:16,929
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

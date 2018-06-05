@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invite Borrower Test Suite" time="53" tests="0" failures="1" errors="0">
+   <testsuite name="Invite Borrower Test Suite" tests="0" failures="1" errors="0" time="53" timestamp="2018-06-04 12:44:08" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Invite Borrower Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_124406"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_124406\\execution0.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_124406\\1528096498723.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="451f2c35-ff57-41a4-8d0a-feb4df4cf4cb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" classname="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)"/>
+         <system-out><![CDATA[2018-06-04 12:44:08 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)
+
+2018-06-04 12:44:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2018-06-04 12:44:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-04 12:44:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-04 12:44:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-04 12:44:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-04 12:44:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-04 12:44:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-04 12:44:21 - [TEST_STEP][PASSED] - com.common.util.LoginHelper.LoginWithAdmin: com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-04 12:44:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-04 12:44:21 - [MESSAGE][PASSED] - Text 'kkachhi+admin@roostify.com' is set on object 'Object Repository/Sign In/input_useremail'
+
+2018-06-04 12:44:21 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Sign In/input_userpassword'
+
+2018-06-04 12:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/button_Sign in' is clicked on
+
+2018-06-04 12:44:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin Settings/Admin settings dropdown/Profile dropdown' are matched.
+
+2018-06-04 12:44:26 - [MESSAGE][PASSED] - com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-04 12:44:26 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-04 12:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-04 12:44:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-04 12:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-04 12:44:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail' is visible
+
+2018-06-04 12:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail' is visible
+
+2018-06-04 12:44:27 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test2@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail'
+
+2018-06-04 12:44:27 - [MESSAGE][PASSED] - Text 'kkachhi+test2@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_useremail'
+
+2018-06-04 12:44:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)
+
+2018-06-04 12:44:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_124406\\1528096498723.png]]
+
+2018-06-04 12:44:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-04 12:44:58 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-04 12:44:58 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-04 12:44:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-04 12:44:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-06-04 12:44:08 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 12:44:08 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-04 12:44:08 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to click on object 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Dashboard/Invite Borrower/input_commit' located by 'By.xpath: //input[@type = 'submit' and @name = 'commit' and @value = 'Invite' and @class = 'btn btn-success']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

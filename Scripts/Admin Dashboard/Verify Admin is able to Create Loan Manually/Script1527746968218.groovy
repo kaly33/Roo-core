@@ -20,17 +20,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 /*Create Loan Manually*/
-def FirstName = 'kaly12'
+def FirstName = 'kaly1'
+
 def LastName = 'kachi'
 
-WebUI.callTestCase(findTestCase('Common/Sign In'), ['email':GlobalVariable.AdminEmail,'password':GlobalVariable.Password], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Admin Dashboard/Create Loan Manually/img'))
+CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
+
+//WebUI.callTestCase(findTestCase('Common/Sign In'), ['email':GlobalVariable.AdminEmail,'password':GlobalVariable.Password], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Admin Dashboard/Create Loan Manually/tab_Add Loan Manually'))
+
 WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Create Loan Manually/input_email'), 10)
-WebUI.setText(findTestObject('Admin Dashboard/Create Loan Manually/input_email'),GlobalVariable.BorrowerEmail3)
+
+WebUI.setText(findTestObject('Admin Dashboard/Create Loan Manually/input_email'), GlobalVariable.BorrowerEmail3)
+
 WebUI.setText(findTestObject('Admin Dashboard/Create Loan Manually/input_first_name'), FirstName)
+
 WebUI.setText(findTestObject('Admin Dashboard/Create Loan Manually/input_last_name'), LastName)
+
 //String fullName = WebUI.concatenate((([FirstName, ' ', LastName]) as String[]), FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Create Loan Manually/input_commit'), 10)
-WebUI.click(findTestObject('Admin Dashboard/Create Loan Manually/input_commit'))
-WebUI.verifyElementPresent(findTestObject('Admin Dashboard/Create Loan Manually/Loan created successfully msg'), 10, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementPresent(findTestObject('Admin Dashboard/Create Loan Manually/Created Loan'), 10)
+WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Create Loan Manually/button_create'), 10)
+
+WebUI.click(findTestObject('Admin Dashboard/Create Loan Manually/button_create'))
+
+WebUI.verifyElementPresent(findTestObject('Admin Dashboard/Create Loan Manually/msg_Loan created successfully'), 10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('null'), 10)
+

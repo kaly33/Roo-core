@@ -4,7 +4,119 @@
    <name>select_State</name>
    <tag></tag>
    <elementGuidId>d5785dac-75b0-47a7-bbe8-d2a189fa761d</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>.//*[@id='loan_application_b_address_attributes_0_state']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'loan_application[b_address_attributes][0][state]' and @id = 'loan_application_b_address_attributes_0_state' and (text() = '
+AK
+AL
+AZ
+AR
+CA
+CO
+CT
+DE
+DC
+FL
+GA
+HI
+ID
+IL
+IN
+IA
+KS
+KY
+LA
+ME
+MD
+MA
+MI
+MN
+MS
+MO
+MT
+NE
+NV
+NH
+NJ
+NM
+NY
+NC
+ND
+OH
+OK
+OR
+PA
+RI
+SC
+SD
+TN
+TX
+UT
+VT
+VA
+WA
+WV
+WI
+WY' or . = '
+AK
+AL
+AZ
+AR
+CA
+CO
+CT
+DE
+DC
+FL
+GA
+HI
+ID
+IL
+IN
+IA
+KS
+KY
+LA
+ME
+MD
+MA
+MI
+MN
+MS
+MO
+MT
+NE
+NV
+NH
+NJ
+NM
+NY
+NC
+ND
+OH
+OK
+OR
+PA
+RI
+SC
+SD
+TN
+TX
+UT
+VT
+VA
+WA
+WV
+WI
+WY')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

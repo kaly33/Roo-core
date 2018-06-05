@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invite Borrower Test Suite" time="24" tests="0" failures="1" errors="0">
+   <testsuite name="Invite Borrower Test Suite" tests="0" failures="1" errors="0" time="24" timestamp="2018-06-04 15:29:54" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Invite Borrower Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_152952"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_152952\\execution0.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_152952\\1528106415682.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="4df601be887d56401788b3926cd736f5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" classname="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)"/>
+         <system-out><![CDATA[2018-06-04 15:29:54 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)
+
+2018-06-04 15:29:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2018-06-04 15:29:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-04 15:29:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-04 15:29:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-04 15:30:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-04 15:30:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-04 15:30:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-04 15:30:01 - [TEST_STEP][PASSED] - com.common.util.LoginHelper.LoginWithAdmin: com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-04 15:30:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-04 15:30:01 - [MESSAGE][PASSED] - Text 'kkachhi+admin@roostify.com' is set on object 'Object Repository/Sign In/input_useremail'
+
+2018-06-04 15:30:01 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Sign In/input_userpassword'
+
+2018-06-04 15:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In/button_Sign in' is clicked on
+
+2018-06-04 15:30:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin Settings/Admin settings dropdown/Profile dropdown' are matched.
+
+2018-06-04 15:30:07 - [MESSAGE][PASSED] - com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-04 15:30:07 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-04 15:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-04 15:30:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-04 15:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-04 15:30:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email' is visible
+
+2018-06-04 15:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email' is visible
+
+2018-06-04 15:30:08 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test2@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email'
+
+2018-06-04 15:30:08 - [MESSAGE][PASSED] - Text 'kkachhi+test2@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email'
+
+2018-06-04 15:30:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/button_Invite' is clicked on
+
+2018-06-04 15:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/button_Invite' is clicked on
+
+2018-06-04 15:30:09 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Gmail Login' (Root cause: Call Test Case 'Test Cases/Common/Gmail Login' failed)
+
+2018-06-04 15:30:10 - [TEST_CASE][FAILED] - Test Cases/Common/Gmail Login: Test Cases/Common/Gmail Login FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)
+
+2018-06-04 15:30:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'gmail.com'
+
+2018-06-04 15:30:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-04 15:30:14 - [MESSAGE][PASSED] - Browser is opened with url: 'gmail.com'
+
+2018-06-04 15:30:14 - [TEST_STEP][PASSED] - setText: Text 'kkachhi@roostify.com' is set on object 'Object Repository/Admin Dashboard/Page_Gmail/input_email'
+
+2018-06-04 15:30:14 - [MESSAGE][PASSED] - Text 'kkachhi@roostify.com' is set on object 'Object Repository/Admin Dashboard/Page_Gmail/input_email'
+
+2018-06-04 15:30:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Page_Gmail/Next button' is clicked on
+
+2018-06-04 15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Page_Gmail/Next button' is clicked on
+
+2018-06-04 15:30:15 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' is clickable
+
+2018-06-04 15:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' is clickable
+
+2018-06-04 15:30:15 - [TEST_STEP][FAILED] - setText: Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)
+
+2018-06-04 15:30:16 - [MESSAGE][FAILED] - Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180604_152952\\1528106415682.png]]
+
+2018-06-04 15:30:16 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Gmail Login' (Root cause: Call Test Case 'Test Cases/Common/Gmail Login' failed)
+
+2018-06-04 15:30:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.
+
+2018-06-04 15:30:16 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-04 15:30:16 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-06-04 15:29:54 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-04 15:29:54 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)]]></system-out>
+      <system-err><![CDATA[2018-06-04 15:29:54 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kaly@33333' of object 'Object Repository/Admin Dashboard/Page_Gmail/input_password' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'KALYANIK', ip: '172.19.19.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\kalyanik\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 4df601be887d56401788b3926cd736f5)]]></system-err>
+   </testsuite>
+</testsuites>

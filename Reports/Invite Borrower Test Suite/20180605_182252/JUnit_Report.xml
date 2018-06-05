@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invite Borrower Test Suite" time="56" tests="0" failures="0" errors="1">
+   <testsuite name="Invite Borrower Test Suite" tests="0" failures="0" errors="1" time="56" timestamp="2018-06-05 18:22:54" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Invite Borrower Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180605_182252"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180605_182252\\execution0.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180605_182252\\1528203189459.png, D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180605_182252\\1528203210283.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="51edf154bac0562b19192a79de65047f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" classname="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Common/Sign In/text_Dashboard Name']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)"/>
+         <system-out><![CDATA[2018-06-05 18:22:54 - [TEST_CASE][ERROR] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Common/Sign In/text_Dashboard Name']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+
+2018-06-05 18:22:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2018-06-05 18:22:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-05 18:22:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-05 18:22:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-05 18:23:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://roostify-navy-test.herokuapp.com/'
+
+2018-06-05 18:23:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-05 18:23:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-05 18:23:02 - [TEST_STEP][PASSED] - com.common.util.LoginHelper.LoginWithAdmin: com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-05 18:23:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-05 18:23:02 - [MESSAGE][PASSED] - Text 'kkachhi+admin@roostify.com' is set on object 'Object Repository/Common/Sign In/input_useremail'
+
+2018-06-05 18:23:03 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Common/Sign In/input_userpassword'
+
+2018-06-05 18:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Sign In/button_Sign in' is clicked on
+
+2018-06-05 18:23:09 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Sign In/div_Login_Popup' located by 'By.xpath: //div[@id = 'tutorial-borrower' and (text() = concat('
+
+Application portal tutorial overlay
+
+
+
+
+
+✕
+
+Now, for some homework!
+
+
+
+This space provides a secure way to:
+
+  Complete critical tasks, like signing and providing documents
+  Get updates about your loan’s progress
+  
+Communicate with your mortgage team and other folks you invite to participate
+
+
+Together with your team, you’ll be moving your loan closer to the finish line.
+Don’t worry, you’ll be notified by email of activity while you’re away.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Add Your Documents Online
+
+
+
+
+The Tasks tab tells you what information or action we still need from you.
+This is where you' , "'" , 'll provide the documents we need to process your loan, and sign important documents from us.
+
+
+Click on a task to get started, and follow the directions to upload your documents.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Stay Up-to-Date
+
+
+
+
+As your loan progresses through the key stages, you' , "'" , 'll see the latest activity posted in your Stream.
+
+
+You can comment on activities, post a question or add another person like your Realtor to the transaction.
+To add people, just click Invite a Collaborator.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+We' , "'" , 're Here to Help
+
+
+
+
+Your mortgage team can help answer questions you have along the way.
+Use the Stream and the Chat to get in touch with us at any time.
+We' , "'" , 're looking forward to working with you!
+
+
+
+
+
+Done
+
+
+
+
+
+') or . = concat('
+
+Application portal tutorial overlay
+
+
+
+
+
+✕
+
+Now, for some homework!
+
+
+
+This space provides a secure way to:
+
+  Complete critical tasks, like signing and providing documents
+  Get updates about your loan’s progress
+  
+Communicate with your mortgage team and other folks you invite to participate
+
+
+Together with your team, you’ll be moving your loan closer to the finish line.
+Don’t worry, you’ll be notified by email of activity while you’re away.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Add Your Documents Online
+
+
+
+
+The Tasks tab tells you what information or action we still need from you.
+This is where you' , "'" , 'll provide the documents we need to process your loan, and sign important documents from us.
+
+
+Click on a task to get started, and follow the directions to upload your documents.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Stay Up-to-Date
+
+
+
+
+As your loan progresses through the key stages, you' , "'" , 'll see the latest activity posted in your Stream.
+
+
+You can comment on activities, post a question or add another person like your Realtor to the transaction.
+To add people, just click Invite a Collaborator.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+We' , "'" , 're Here to Help
+
+
+
+
+Your mortgage team can help answer questions you have along the way.
+Use the Stream and the Chat to get in touch with us at any time.
+We' , "'" , 're looking forward to working with you!
+
+
+
+
+
+Done
+
+
+
+
+
+'))]' not found
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180605_182252\\1528203189459.png]]
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Sign In/text_Dashboard Name' is present
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Common/Sign In/text_Dashboard Name' is: 'Kalyani Admin'
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - Concatenated string array: '['Kalyani',' ','Admin']' into 'Kalyani Admin'
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - Actual text 'Kalyani Admin' and expected text 'Kalyani Admin' are matched  using regular expression
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-05 18:23:09 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-05 18:23:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-05 18:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-05 18:23:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email' is visible
+
+2018-06-05 18:23:10 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email' is visible
+
+2018-06-05 18:23:10 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test4@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email'
+
+2018-06-05 18:23:10 - [MESSAGE][PASSED] - Text 'kkachhi+test4@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email'
+
+2018-06-05 18:23:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/button_Invite' is clicked on
+
+2018-06-05 18:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/button_Invite' is clicked on
+
+2018-06-05 18:23:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Gmail Login' successfully
+
+2018-06-05 18:23:13 - [TEST_CASE][PASSED] - Test Cases/Common/Gmail Login: Test Cases/Common/Gmail Login
+
+2018-06-05 18:23:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'gmail.com'
+
+2018-06-05 18:23:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-05 18:23:18 - [MESSAGE][PASSED] - Browser is opened with url: 'gmail.com'
+
+2018-06-05 18:23:18 - [TEST_STEP][PASSED] - setText: Text 'kkachhi@roostify.com' is set on object 'Object Repository/Common/Page_Gmail/input_email'
+
+2018-06-05 18:23:18 - [MESSAGE][PASSED] - Text 'kkachhi@roostify.com' is set on object 'Object Repository/Common/Page_Gmail/input_email'
+
+2018-06-05 18:23:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Page_Gmail/Next button email' is clicked on
+
+2018-06-05 18:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Page_Gmail/Next button email' is clicked on
+
+2018-06-05 18:23:19 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Common/Page_Gmail/input_password' is clickable
+
+2018-06-05 18:23:19 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Page_Gmail/input_password' is clickable
+
+2018-06-05 18:23:19 - [TEST_STEP][PASSED] - setText: Text 'kaly@33333' is set on object 'Object Repository/Common/Page_Gmail/input_password'
+
+2018-06-05 18:23:19 - [MESSAGE][PASSED] - Text 'kaly@33333' is set on object 'Object Repository/Common/Page_Gmail/input_password'
+
+2018-06-05 18:23:19 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Common/Page_Gmail/Next button pwd' is clickable
+
+2018-06-05 18:23:19 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Page_Gmail/Next button pwd' is clickable
+
+2018-06-05 18:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Page_Gmail/Next button pwd' is clicked on
+
+2018-06-05 18:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Page_Gmail/Next button pwd' is clicked on
+
+2018-06-05 18:23:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-05 18:23:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-05 18:23:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Gmail Login' successfully
+
+2018-06-05 18:23:20 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Common/Page_Gmail/Search input box' is present
+
+2018-06-05 18:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Page_Gmail/Search input box' is present
+
+2018-06-05 18:23:29 - [TEST_STEP][PASSED] - setText: Text 'invites you to start a home loan application' is set on object 'Object Repository/Common/Page_Gmail/Search input box'
+
+2018-06-05 18:23:30 - [MESSAGE][PASSED] - Text 'invites you to start a home loan application' is set on object 'Object Repository/Common/Page_Gmail/Search input box'
+
+2018-06-05 18:23:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Page_Gmail/Search icon' is clicked on
+
+2018-06-05 18:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Page_Gmail/Search icon' is clicked on
+
+2018-06-05 18:23:30 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-06-05 18:23:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180605_182252\\1528203210283.png]]
+
+2018-06-05 18:23:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Common/Page_Gmail/Mail' is present
+
+2018-06-05 18:23:30 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Page_Gmail/Mail' is present
+
+2018-06-05 18:23:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Page_Gmail/Mail' is clicked on
+
+2018-06-05 18:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Page_Gmail/Mail' is clicked on
+
+2018-06-05 18:23:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Page_Gmail/Start Application' is clicked on
+
+2018-06-05 18:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Page_Gmail/Start Application' is clicked on
+
+2018-06-05 18:23:31 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-06-05 18:23:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-06-05 18:23:31 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Sign Up' (Root cause: Call Test Case 'Test Cases/Common/Sign Up' failed because of error(s))
+
+2018-06-05 18:23:31 - [TEST_CASE][ERROR] - Test Cases/Common/Sign Up: Test Cases/Common/Sign Up FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Common/Sign In/text_Dashboard Name']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+
+2018-06-05 18:23:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-05 18:23:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-05 18:23:33 - [TEST_STEP][PASSED] - setText: Text 'Kaly1' is set on object 'Object Repository/Common/Sign Up/input_userfirst_name'
+
+2018-06-05 18:23:40 - [MESSAGE][PASSED] - Text 'Kaly1' is set on object 'Object Repository/Common/Sign Up/input_userfirst_name'
+
+2018-06-05 18:23:40 - [TEST_STEP][PASSED] - setText: Text 'Kachhi' is set on object 'Object Repository/Common/Sign Up/input_userlast_name'
+
+2018-06-05 18:23:41 - [MESSAGE][PASSED] - Text 'Kachhi' is set on object 'Object Repository/Common/Sign Up/input_userlast_name'
+
+2018-06-05 18:23:41 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test4@roostify.com' is set on object 'Object Repository/Common/Sign Up/input_User email'
+
+2018-06-05 18:23:41 - [MESSAGE][PASSED] - Text 'kkachhi+test4@roostify.com' is set on object 'Object Repository/Common/Sign Up/input_User email'
+
+2018-06-05 18:23:41 - [TEST_STEP][PASSED] - setText: Text 'Kal@3333' is set on object 'Object Repository/Common/Sign Up/input_userpassword'
+
+2018-06-05 18:23:41 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Common/Sign Up/input_userpassword'
+
+2018-06-05 18:23:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Sign Up/input_TermsnConditions_check' is clicked on
+
+2018-06-05 18:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Sign Up/input_TermsnConditions_check' is clicked on
+
+2018-06-05 18:23:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/Sign Up/button_Start Application' is clicked on
+
+2018-06-05 18:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Sign Up/button_Start Application' is clicked on
+
+2018-06-05 18:23:47 - [TEST_STEP][PASSED] - Statement - dashboardName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Common/Sign In/text_Dashboard Name))): Finding Test Object with id 'Object Repository/Common/Sign In/text_Dashboard Name'
+
+2018-06-05 18:23:47 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Sign Up' (Root cause: Call Test Case 'Test Cases/Common/Sign Up' failed because of error(s))
+
+2018-06-05 18:23:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.
+
+2018-06-05 18:23:47 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-05 18:23:47 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-06-05 18:22:54 - [TEST_CASE][ERROR] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Common/Sign In/text_Dashboard Name']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-05 18:22:54 - [TEST_SUITE][ERROR] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Common/Sign In/text_Dashboard Name']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-out>
+      <system-err><![CDATA[2018-06-05 18:22:54 - [TEST_SUITE][ERROR] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/Common/Sign In/text_Dashboard Name']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-err>
+   </testsuite>
+</testsuites>

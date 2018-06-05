@@ -31,7 +31,7 @@ class TestListeners {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		WebUI.openBrowser('https://roostify-dev-pr-6203.herokuapp.com/')
+		WebUI.openBrowser(GlobalVariable.BaseURL)
 		WebUI.maximizeWindow()
 	}
 
@@ -43,7 +43,7 @@ class TestListeners {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
-		WebUI.closeBrowser()
+		
 	}
 
 	/**
@@ -53,8 +53,7 @@ class TestListeners {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
-		WebUI.openBrowser('https://roostify-dev-pr-6203.herokuapp.com/')
-		WebUI.maximizeWindow()
+		
 	}
 
 	/**
@@ -64,6 +63,6 @@ class TestListeners {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
-		WebUI.closeBrowser()
+		
 	}
 }

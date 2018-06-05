@@ -1,0 +1,140 @@
+1
+00:00:00,121 --> 00:00:00,122
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:07,324 --> 00:00:07,324
+5. waitForElementClickable
+
+3
+00:00:07,368 --> 00:00:07,369
+9. click
+
+4
+00:00:07,434 --> 00:00:07,434
+13. waitForElementVisible
+
+5
+00:00:07,994 --> 00:00:07,995
+17. setText
+
+6
+00:00:08,188 --> 00:00:08,189
+21. click
+
+7
+00:00:10,967 --> 00:00:10,969
+25. callTestCase
+
+8
+00:00:11,148 --> 00:00:11,149
+1. openBrowser
+
+9
+00:00:16,121 --> 00:00:16,122
+5. setText
+
+10
+00:00:16,336 --> 00:00:16,337
+9. click
+
+11
+00:00:16,540 --> 00:00:16,542
+13. waitForElementClickable
+
+12
+00:00:17,102 --> 00:00:17,103
+17. setText
+
+13
+00:00:17,239 --> 00:00:17,239
+21. waitForElementClickable
+
+14
+00:00:17,283 --> 00:00:17,284
+25. click
+
+15
+00:00:17,491 --> 00:00:17,491
+29. waitForPageLoad
+
+16
+00:00:17,505 --> 00:00:17,505
+29. waitForElementPresent
+
+17
+00:00:27,107 --> 00:00:27,108
+33. setText
+
+18
+00:00:27,630 --> 00:00:27,630
+37. click
+
+19
+00:00:27,751 --> 00:00:27,752
+41. takeScreenshot
+
+20
+00:00:28,086 --> 00:00:28,088
+45. waitForElementPresent
+
+21
+00:00:28,180 --> 00:00:28,181
+49. click
+
+22
+00:00:28,384 --> 00:00:28,385
+53. click
+
+23
+00:00:28,560 --> 00:00:28,560
+57. switchToWindowIndex
+
+24
+00:00:28,581 --> 00:00:28,583
+61. callTestCase
+
+25
+00:00:28,764 --> 00:00:28,765
+1. waitForPageLoad
+
+26
+00:00:31,373 --> 00:00:31,373
+5. setText
+
+27
+00:00:38,382 --> 00:00:38,383
+9. setText
+
+28
+00:00:38,491 --> 00:00:38,491
+13. setText
+
+29
+00:00:38,667 --> 00:00:38,667
+17. setText
+
+30
+00:00:38,781 --> 00:00:38,782
+21. click
+
+31
+00:00:38,854 --> 00:00:38,855
+25. click
+
+32
+00:00:45,289 --> 00:00:45,291
+29. Statement - dashboardName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Common/Sign In/text_Dashboard Name)))
+
+33
+00:00:45,334 --> 00:00:45,334
+1. Statement - println(testCaseContext.getTestCaseId())
+
+34
+00:00:45,335 --> 00:00:45,335
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+35
+00:00:47,403 --> 00:00:47,403
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

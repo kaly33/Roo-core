@@ -20,9 +20,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('gmail.com')
-WebUI.setText(findTestObject('Admin Dashboard/Page_Gmail/input_email'), GlobalVariable.GmailEmail)
-WebUI.click(findTestObject('Admin Dashboard/Page_Gmail/Next button'))
-WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Page_Gmail/input_password'), 10)
-WebUI.setText(findTestObject('Admin Dashboard/Page_Gmail/input_password'), GlobalVariable.GmailPassword)
-WebUI.click(findTestObject('Admin Dashboard/Page_Gmail/Next button'))
+WebUI.setText(findTestObject('Common/Page_Gmail/input_email'), GlobalVariable.GmailEmail)
+WebUI.click(findTestObject('Common/Page_Gmail/Next button email'))
+WebUI.waitForElementClickable(findTestObject('Common/Page_Gmail/input_password'), 10)
+WebUI.setText(findTestObject('Common/Page_Gmail/input_password'), GlobalVariable.GmailPassword)
+WebUI.waitForElementClickable(findTestObject('Common/Page_Gmail/Next button pwd'), 10)
+WebUI.click(findTestObject('Common/Page_Gmail/Next button pwd'))
 WebUI.waitForPageLoad(10)

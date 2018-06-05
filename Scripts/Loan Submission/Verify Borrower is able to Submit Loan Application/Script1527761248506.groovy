@@ -20,44 +20,82 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.BorrowerEmail2, ('password') : GlobalVariable.Password], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.BorrowerEmail2, ('password') : GlobalVariable.Password], FailureHandling.STOP_ON_FAILURE)
 /*Borrower Details*/
+
+CustomKeywords.'com.common.util.LoginHelper.loginWith'(GlobalVariable.BorrowerEmail2,GlobalVariable.Password,GlobalVariable.Borrower1FirstName,GlobalVariable.Borrower1LastName)
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Continue'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Next'))
+
 WebUI.setText(findTestObject('Complete Loan Details/Borrower Details/input_Primary_Phone'), '3456789324')
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Next'))
+
 WebUI.selectOptionByValue(findTestObject('Complete Loan Details/Borrower Details/select_Birth_Month'), '10', true)
+
 WebUI.selectOptionByValue(findTestObject('Complete Loan Details/Borrower Details/select_Birth_Date'), '6', true)
+
 WebUI.selectOptionByValue(findTestObject('Complete Loan Details/Borrower Details/select_Birth_Year'), '1990', true)
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Next'))
+
 WebUI.waitForPageLoad(10)
+
 WebUI.setText(findTestObject('Complete Loan Details/Borrower Details/input_Address1'), '452 Holly Lane  Hopewell')
+
 WebUI.setText(findTestObject('Complete Loan Details/Borrower Details/input_Address2'), 'Hopewell')
+
 WebUI.selectOptionByValue(findTestObject('Complete Loan Details/Borrower Details/select_State'), 'VT', true)
+
 WebUI.setText(findTestObject('Complete Loan Details/Borrower Details/input_Zipcode'), '23860')
+
 WebUI.selectOptionByValue(findTestObject('Complete Loan Details/Borrower Details/select_Month_Starting_from'), '9', true)
+
 WebUI.selectOptionByValue(findTestObject('Complete Loan Details/Borrower Details/select_Year_Starting_from'), '2016', true)
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Yes'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Next'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/checkbox_other_mailing_address'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/checkbox_other_mailing_address'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/button_Next'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/checkbox_has_coborrower'))
+
 WebUI.click(findTestObject('Complete Loan Details/Borrower Details/checkbox_has_coborrower'))
+
 WebUI.waitForPageLoad(60)
 
 /*Application Release*/
 WebUI.click(findTestObject('Complete Loan Details/Application Release/Application_Release_Tab'))
+
 WebUI.waitForPageLoad(10)
+
 WebUI.click(findTestObject('Object Repository/Complete Loan Details/Application Release/button_Fix_Issues'))
+
 WebUI.waitForPageLoad(10)
 
 WebUI.setText(findTestObject('Object Repository/Complete Loan Details/Declarations/input_SSN1'), '333')
+
 WebUI.setText(findTestObject('Object Repository/Complete Loan Details/Declarations/input_SSN2'), '33')
+
 WebUI.setText(findTestObject('Object Repository/Complete Loan Details/Declarations/input_SSN3'), '3333')
 
 WebUI.click(findTestObject('Object Repository/Complete Loan Details/Declarations/button_Save and return to review'))
-WebUI.click(findTestObject('Complete Loan Details/Application Release/button_Skip Warnings and Submit'))
-WebUI.waitForPageLoad(10)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Complete Loan Details/Submitted Loan application/msg_Success Loan submission'), 10)
 
+WebUI.click(findTestObject('Complete Loan Details/Application Release/button_Skip Warnings and Submit'))
+
+WebUI.waitForPageLoad(10)
+
+if(WebUI.verifyElementPresent(findTestObject('Common/Sign In/div_Login_Popup'), 5,FailureHandling.OPTIONAL)) 
+{
+	
+	WebUI.click(findTestObject('Common/Sign In/button_Close_popup'))
+				
+}
+WebUI.verifyElementPresent(findTestObject('Object Repository/Borrower Dashboard/msg_Loan Successfully submitted'), 10)

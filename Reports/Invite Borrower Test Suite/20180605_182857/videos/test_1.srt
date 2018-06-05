@@ -1,0 +1,156 @@
+1
+00:00:00,120 --> 00:00:00,120
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:06,886 --> 00:00:06,887
+5. waitForElementClickable
+
+3
+00:00:06,948 --> 00:00:06,950
+9. click
+
+4
+00:00:07,016 --> 00:00:07,017
+13. waitForElementVisible
+
+5
+00:00:07,575 --> 00:00:07,575
+17. setText
+
+6
+00:00:07,755 --> 00:00:07,756
+21. click
+
+7
+00:00:09,809 --> 00:00:09,810
+25. callTestCase
+
+8
+00:00:09,958 --> 00:00:09,958
+1. openBrowser
+
+9
+00:00:14,923 --> 00:00:14,925
+5. setText
+
+10
+00:00:15,236 --> 00:00:15,237
+9. click
+
+11
+00:00:15,368 --> 00:00:15,369
+13. waitForElementClickable
+
+12
+00:00:15,926 --> 00:00:15,927
+17. setText
+
+13
+00:00:16,077 --> 00:00:16,078
+21. waitForElementClickable
+
+14
+00:00:16,119 --> 00:00:16,120
+25. click
+
+15
+00:00:16,229 --> 00:00:16,230
+29. waitForPageLoad
+
+16
+00:00:16,239 --> 00:00:16,239
+29. waitForElementPresent
+
+17
+00:00:24,939 --> 00:00:24,940
+33. setText
+
+18
+00:00:25,469 --> 00:00:25,469
+37. click
+
+19
+00:00:25,587 --> 00:00:25,587
+41. takeScreenshot
+
+20
+00:00:25,915 --> 00:00:25,916
+45. waitForElementPresent
+
+21
+00:00:25,936 --> 00:00:25,936
+49. click
+
+22
+00:00:26,142 --> 00:00:26,143
+53. click
+
+23
+00:00:26,313 --> 00:00:26,314
+57. switchToWindowIndex
+
+24
+00:00:26,332 --> 00:00:26,333
+61. callTestCase
+
+25
+00:00:26,518 --> 00:00:26,519
+1. waitForPageLoad
+
+26
+00:00:33,779 --> 00:00:33,780
+5. setText
+
+27
+00:00:33,890 --> 00:00:33,891
+9. setText
+
+28
+00:00:33,995 --> 00:00:33,996
+13. setText
+
+29
+00:00:34,163 --> 00:00:34,163
+17. setText
+
+30
+00:00:34,276 --> 00:00:34,277
+21. click
+
+31
+00:00:34,400 --> 00:00:34,401
+25. click
+
+32
+00:00:39,804 --> 00:00:39,805
+29. Statement - dashboardName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Common/Sign In/text_Dashboard Name))
+
+33
+00:00:39,852 --> 00:00:39,853
+33. Statement - fullName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([firstName, " ", lastName], STOP_ON_FAILURE)
+
+34
+00:00:39,855 --> 00:00:39,855
+37. verifyMatch
+
+35
+00:00:39,857 --> 00:00:39,857
+65. callTestCase
+
+36
+00:00:40,037 --> 00:00:40,037
+1. com.common.util.LoginHelper.loginWith
+
+37
+00:01:11,082 --> 00:01:11,082
+1. Statement - println(testCaseContext.getTestCaseId())
+
+38
+00:01:11,083 --> 00:01:11,084
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+39
+00:01:13,145 --> 00:01:13,146
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

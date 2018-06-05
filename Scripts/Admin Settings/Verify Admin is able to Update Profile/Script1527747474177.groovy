@@ -18,4 +18,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
+
+WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('Admin Settings/Admin settings dropdown/span_Kalyani Admin'))
+
+WebUI.click(findTestObject('Admin Settings/Admin settings dropdown/span_Profile'))
+
+WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_userfirst_name'), 'Kalyani')
+
+WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_userlast_name'), 'Admin')
+
+WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_useremail'), 'kkachhi+admin@roostify.com')
+
+WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_usermobile_phone'),'4567890983')
+
+WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_userhome_phone'),'5431234563')
+
+WebUI.click(findTestObject('Admin Settings/AdminProfile/button_Save'))
+
+WebUI.verifyElementPresent(findTestObject('Admin Settings/AdminProfile/msg_Changes successfully saved'),5)
+
+WebUI.sendKeys(findTestObject('Object Repository/Admin Settings/AdminProfile/button_Upload Profile Photo'), 'D:/1_Roostify/images/pic2.jpg')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Admin Settings/AdminProfile/msg_User photo upload successful'), 5)

@@ -19,13 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://roostify-dev-pr-6203.herokuapp.com/users/sign_up?r=kkachhiadmin')
-WebUI.setText(findTestObject('Sign Up/input_userfirst_name'), GlobalVariable.Borrower1FirstName)
-WebUI.setText(findTestObject('Sign Up/input_userlast_name'), GlobalVariable.Borrower1LastName)
-WebUI.setText(findTestObject('Sign Up/input_useremail'), email)
-WebUI.setText(findTestObject('Sign Up/input_userpassword'),password)
-WebUI.click(findTestObject('Sign Up/input_r_terms_check'))
-WebUI.click(findTestObject('Sign Up/button_Start Application'))
+//WebUI.openBrowser(' https://dev.roostify.com/users/sign_up/?r=kalyaniadmin')
+WebUI.waitForPageLoad(10)
+WebUI.setText(findTestObject('Common/Sign Up/input_userfirst_name'), firstName)
+WebUI.setText(findTestObject('Common/Sign Up/input_userlast_name'), lastName)
+WebUI.setText(findTestObject('Common/Sign Up/input_User email'), email)
+WebUI.setText(findTestObject('Common/Sign Up/input_userpassword'),password)
+WebUI.click(findTestObject('Common/Sign Up/input_TermsnConditions_check'))
+WebUI.click(findTestObject('Common/Sign Up/button_Start Application'))
+String dashboardName= WebUI.getText(findTestObject('Common/Sign In/text_Dashboard Name'))
+String fullName=WebUI.concatenate([firstName,' ',lastName] as String[], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(dashboardName, fullName, true)
+	
 
 
 

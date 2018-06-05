@@ -20,12 +20,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 /*Copy Referral Link*/
-WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.AdminEmail, ('password') : GlobalVariable.Password],    FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/Copy Referral Link Tab'))
+//WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.AdminEmail, ('password') : GlobalVariable.Password],    FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
+
+WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/tab_Copy Referral Link'))
+
 WebUI.takeScreenshot()
+
 WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
-string url = WebUI.getText(findTestObject('Object Repository/Admin Dashboard/Copy Referral Link/input_referral_url'))
+
+string url = WebUI.getText(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'))
+
 WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
+
 WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
+
 WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'))
+
 WebUI.closeBrowser()
+
