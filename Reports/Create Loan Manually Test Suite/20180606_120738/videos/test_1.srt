@@ -1,0 +1,56 @@
+1
+00:00:00,211 --> 00:00:00,214
+1. Statement - FirstName = "kaly2"
+
+2
+00:00:00,223 --> 00:00:00,225
+5. Statement - LastName = "kachi"
+
+3
+00:00:00,226 --> 00:00:00,235
+9. com.common.util.LoginHelper.LoginWithAdmin
+
+4
+00:00:07,134 --> 00:00:07,134
+13. click
+
+5
+00:00:07,301 --> 00:00:07,302
+17. waitForElementVisible
+
+6
+00:00:07,950 --> 00:00:07,950
+21. setText
+
+7
+00:00:08,161 --> 00:00:08,162
+25. setText
+
+8
+00:00:08,283 --> 00:00:08,284
+29. setText
+
+9
+00:00:08,406 --> 00:00:08,407
+33. waitForElementVisible
+
+10
+00:00:08,914 --> 00:00:08,915
+37. click
+
+11
+00:00:09,027 --> 00:00:09,028
+41. verifyElementPresent
+
+12
+00:00:09,052 --> 00:00:09,052
+1. Statement - println(testCaseContext.getTestCaseId())
+
+13
+00:00:09,053 --> 00:00:09,054
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+14
+00:00:11,071 --> 00:00:11,072
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

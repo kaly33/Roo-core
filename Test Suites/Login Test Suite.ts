@@ -49,4 +49,10 @@
          <variableId>23f55887-6685-4376-8dae-5eb046788f5a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9b12bb27-b4a4-4d9d-9d60-920d44da38db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Dashboard/Verify Admin is able to Login</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

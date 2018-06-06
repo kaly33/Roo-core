@@ -28,7 +28,7 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('https://www.katalon.com/')
+
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.katalon.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)

@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 /*Create Loan Manually*/
-def FirstName = 'kaly1'
+def FirstName = 'kaly2'
 
 def LastName = 'kachi'
 
@@ -44,5 +44,5 @@ WebUI.click(findTestObject('Admin Dashboard/Create Loan Manually/button_create')
 
 WebUI.verifyElementPresent(findTestObject('Admin Dashboard/Create Loan Manually/msg_Loan created successfully'), 10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('null'), 10)
+
 

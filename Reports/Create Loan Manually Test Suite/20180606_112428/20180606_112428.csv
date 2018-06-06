@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Loan Manually Test Suite,Firefox 47.0,,2018-06-06 11:24:32,2018-06-06 11:24:47,15.051s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually,Firefox 47.0,,2018-06-06 11:24:32,2018-06-06 11:24:46,14.313s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-06-06 11:24:32,2018-06-06 11:24:44,11.818s,PASSED
+"Statement - FirstName = ""kaly1""",Firefox 47.0,,2018-06-06 11:24:44,2018-06-06 11:24:44,0.009s,PASSED
+"Statement - LastName = ""kachi""",Firefox 47.0,,2018-06-06 11:24:44,2018-06-06 11:24:44,0.002s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Firefox 47.0,,2018-06-06 11:24:44,2018-06-06 11:24:44,0.200s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-06-06 11:24:44,2018-06-06 11:24:44,0.007s,PASSED

@@ -1,0 +1,124 @@
+1
+00:00:00,184 --> 00:00:00,189
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:07,712 --> 00:00:07,713
+5. waitForElementClickable
+
+3
+00:00:07,812 --> 00:00:07,813
+9. click
+
+4
+00:00:07,886 --> 00:00:07,887
+13. waitForElementVisible
+
+5
+00:00:08,475 --> 00:00:08,476
+17. setText
+
+6
+00:00:08,806 --> 00:00:08,807
+21. click
+
+7
+00:00:12,045 --> 00:00:12,045
+25. callTestCase
+
+8
+00:00:12,218 --> 00:00:12,219
+1. openBrowser
+
+9
+00:00:17,483 --> 00:00:17,484
+5. setText
+
+10
+00:00:18,270 --> 00:00:18,271
+9. click
+
+11
+00:00:18,516 --> 00:00:18,518
+13. waitForElementClickable
+
+12
+00:00:19,064 --> 00:00:19,066
+17. setText
+
+13
+00:00:19,204 --> 00:00:19,204
+21. waitForElementClickable
+
+14
+00:00:19,246 --> 00:00:19,247
+25. click
+
+15
+00:00:19,368 --> 00:00:19,368
+29. waitForPageLoad
+
+16
+00:00:19,378 --> 00:00:19,378
+29. waitForElementPresent
+
+17
+00:00:28,832 --> 00:00:28,832
+33. setText
+
+18
+00:00:29,426 --> 00:00:29,426
+37. click
+
+19
+00:00:29,555 --> 00:00:29,556
+41. takeScreenshot
+
+20
+00:00:29,892 --> 00:00:29,893
+45. waitForElementPresent
+
+21
+00:00:29,921 --> 00:00:29,921
+49. click
+
+22
+00:00:30,232 --> 00:00:30,233
+53. click
+
+23
+00:00:30,396 --> 00:00:30,397
+57. switchToWindowIndex
+
+24
+00:00:30,420 --> 00:00:30,421
+61. refresh
+
+25
+00:00:33,269 --> 00:00:33,270
+65. waitForPageLoad
+
+26
+00:00:33,282 --> 00:00:33,282
+69. callTestCase
+
+27
+00:00:33,433 --> 00:00:33,433
+1. waitForPageLoad
+
+28
+00:00:33,439 --> 00:00:33,440
+5. setText
+
+29
+00:01:05,103 --> 00:01:05,103
+1. Statement - println(testCaseContext.getTestCaseId())
+
+30
+00:01:05,104 --> 00:01:05,104
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+31
+00:01:07,161 --> 00:01:07,161
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

@@ -1,0 +1,96 @@
+1
+00:00:00,228 --> 00:00:00,230
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:14,025 --> 00:00:14,026
+5. waitForElementClickable
+
+3
+00:00:14,170 --> 00:00:14,171
+9. click
+
+4
+00:00:15,162 --> 00:00:15,162
+13. waitForElementVisible
+
+5
+00:00:15,316 --> 00:00:15,316
+17. setText
+
+6
+00:00:15,935 --> 00:00:15,935
+21. click
+
+7
+00:00:20,713 --> 00:00:20,714
+25. callTestCase
+
+8
+00:00:20,870 --> 00:00:20,874
+1. openBrowser
+
+9
+00:00:27,319 --> 00:00:27,320
+5. setText
+
+10
+00:00:27,914 --> 00:00:27,915
+9. click
+
+11
+00:00:28,979 --> 00:00:28,980
+13. waitForElementClickable
+
+12
+00:00:29,405 --> 00:00:29,406
+17. setText
+
+13
+00:00:30,034 --> 00:00:30,035
+21. waitForElementClickable
+
+14
+00:00:30,158 --> 00:00:30,158
+25. click
+
+15
+00:00:31,135 --> 00:00:31,135
+29. waitForPageLoad
+
+16
+00:00:31,190 --> 00:00:31,191
+29. waitForElementPresent
+
+17
+00:00:40,903 --> 00:00:40,904
+33. setText
+
+18
+00:00:42,527 --> 00:00:42,528
+37. click
+
+19
+00:00:44,259 --> 00:00:44,260
+41. takeScreenshot
+
+20
+00:00:44,347 --> 00:00:44,347
+45. waitForElementPresent
+
+21
+00:01:02,054 --> 00:01:02,055
+49. click
+
+22
+00:02:17,170 --> 00:02:17,171
+1. Statement - println(testCaseContext.getTestCaseId())
+
+23
+00:02:17,172 --> 00:02:17,172
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+24
+00:02:19,278 --> 00:02:19,279
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

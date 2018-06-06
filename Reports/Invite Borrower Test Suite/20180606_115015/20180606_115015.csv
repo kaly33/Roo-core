@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,IE 11,,2018-06-06 11:50:19,2018-06-06 11:52:56,2m - 36.494s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,IE 11,,2018-06-06 11:50:20,2018-06-06 11:52:55,2m - 35.324s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2018-06-06 11:50:20,2018-06-06 11:50:36,15.978s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,IE 11,,2018-06-06 11:50:36,2018-06-06 11:50:50,13.797s,PASSED
+waitForElementClickable,IE 11,,2018-06-06 11:50:50,2018-06-06 11:50:50,0.144s,PASSED
+click,IE 11,,2018-06-06 11:50:50,2018-06-06 11:50:51,0.992s,PASSED
+waitForElementVisible,IE 11,,2018-06-06 11:50:51,2018-06-06 11:50:51,0.154s,PASSED
+setText,IE 11,,2018-06-06 11:50:51,2018-06-06 11:50:52,0.619s,PASSED
+click,IE 11,,2018-06-06 11:50:52,2018-06-06 11:50:57,4.779s,PASSED
+callTestCase,IE 11,,2018-06-06 11:50:57,2018-06-06 11:51:07,10.476s,PASSED
+waitForElementPresent,IE 11,,2018-06-06 11:51:07,2018-06-06 11:51:17,9.712s,PASSED
+setText,IE 11,,2018-06-06 11:51:17,2018-06-06 11:51:18,1.623s,PASSED
+click,IE 11,,2018-06-06 11:51:18,2018-06-06 11:51:20,1.732s,PASSED
+takeScreenshot,IE 11,,2018-06-06 11:51:20,2018-06-06 11:51:20,0.087s,PASSED
+waitForElementPresent,IE 11,,2018-06-06 11:51:20,2018-06-06 11:51:38,17.707s,PASSED
+click,IE 11,,2018-06-06 11:51:38,2018-06-06 11:52:53,1m - 15.114s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2018-06-06 11:52:53,2018-06-06 11:52:53,0.004s,PASSED

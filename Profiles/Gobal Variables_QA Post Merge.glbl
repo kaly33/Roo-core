@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Gobal Variables_Post Merge QA</name>
+   <name>Gobal Variables_QA Post Merge</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test6@roostify.com'</initValue>
+      <initValue>'kkachhi+test8@roostify.com'</initValue>
       <name>BorrowerEmail2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kaly1'</initValue>
+      <initValue>'Kaly2'</initValue>
       <name>Borrower1FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

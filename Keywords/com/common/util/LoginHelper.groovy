@@ -36,7 +36,6 @@ public class LoginHelper {
 		if(WebUI.verifyElementPresent(findTestObject('Common/Sign In/div_Login_Popup'), 5,FailureHandling.OPTIONAL)) {
 
 			WebUI.click(findTestObject('Common/Sign In/button_Close_popup'))
-			
 		}
 
 		WebUI.waitForElementPresent(findTestObject('Common/Sign In/text_Dashboard Name'), 5)

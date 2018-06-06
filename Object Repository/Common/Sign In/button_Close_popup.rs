@@ -4,7 +4,17 @@
    <name>button_Close_popup</name>
    <tag></tag>
    <elementGuidId>4d4675e2-6d23-4e69-bf3b-03519ca8b37c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>.//*[@id='tutorial-borrower']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = '✕' or . = '✕')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

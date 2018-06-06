@@ -29,7 +29,7 @@ WebUI.takeScreenshot()
 
 WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
 
-string url = WebUI.getText(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'))
+not_run: String url = WebUI.getText(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'))
 
 WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
 
