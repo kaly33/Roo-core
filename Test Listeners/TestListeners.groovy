@@ -31,8 +31,7 @@ class TestListeners {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		WebUI.openBrowser(GlobalVariable.BaseURL)
-		WebUI.maximizeWindow()
+		
 	}
 
 	/**

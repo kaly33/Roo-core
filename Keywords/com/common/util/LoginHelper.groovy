@@ -29,6 +29,8 @@ import WebUiBuiltInKeywords as WebUI
 public class LoginHelper {
 	@Keyword
 	public void loginWith(String email,String password,String fname,String lname) {
+		WebUI.openBrowser(GlobalVariable.BaseURL)
+		WebUI.maximizeWindow()
 		WebUI.waitForPageLoad(10)
 		WebUI.setText(findTestObject('Common/Sign In/input_useremail'), email)
 		WebUI.setText(findTestObject('Common/Sign In/input_userpassword'), password)
@@ -39,14 +41,15 @@ public class LoginHelper {
 		}
 
 		WebUI.waitForElementPresent(findTestObject('Common/Sign In/text_Dashboard Name'), 5)
-		String dashboardName= WebUI.getText(findTestObject('Common/Sign In/text_Dashboard Name'))
-		String fullName=WebUI.concatenate([fname, ' ', lname] as String[], FailureHandling.STOP_ON_FAILURE)
-		WebUI.verifyMatch(dashboardName, fullName, true)
+		WebUI.verifyElementPresent(findTestObject('Common/Sign In/text_Dashboard Name'), 5)
+		/*String dashboardName= WebUI.getText(findTestObject('Common/Sign In/text_Dashboard Name'))
+		 String fullName=WebUI.concatenate([fname, ' ', lname] as String[], FailureHandling.STOP_ON_FAILURE)
+		 WebUI.verifyMatch(dashboardName, fullName, true)*/
 	}
 
 
 	@Keyword
 	public void LoginWithAdmin() {
-		loginWith(GlobalVariable.AdminEmail,GlobalVariable.Password,GlobalVariable.AdminFirstname,GlobalVariable.AdminLastname)
+		loginWith(GlobalVariable.AdminEmail,GlobalVariable.Password,GlobalVariable.AdminFirstName, GlobalVariable.AdminLastName)
 	}
 }

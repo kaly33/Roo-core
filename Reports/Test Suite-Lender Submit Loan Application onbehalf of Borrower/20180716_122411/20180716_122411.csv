@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite-Lender Submit Loan Application onbehalf of Borrower,Chrome 67.0.3396.99,,2018-07-16 12:24:13,2018-07-16 12:25:29,1m - 15.557s,PASSED
+,,,,,,
+Test Cases/Loan Submission/Lender Submit Loan Application on behalf of Borrower,Chrome 67.0.3396.99,,2018-07-16 12:24:14,2018-07-16 12:25:28,1m - 14.440s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-16 12:24:14,2018-07-16 12:24:14,0.013s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 12:24:14,2018-07-16 12:24:32,18.029s,PASSED
+refresh,Chrome 67.0.3396.99,,2018-07-16 12:24:32,2018-07-16 12:24:34,1.742s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-16 12:24:34,2018-07-16 12:24:34,0.040s,PASSED
+waitForElementClickable,Chrome 67.0.3396.99,,2018-07-16 12:24:34,2018-07-16 12:24:37,3.086s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-16 12:24:37,2018-07-16 12:24:44,6.963s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 12:24:44,2018-07-16 12:24:57,13.337s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 12:24:57,2018-07-16 12:25:05,8.100s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 12:25:05,2018-07-16 12:25:20,14.855s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 12:25:20,2018-07-16 12:25:22,1.819s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-16 12:25:22,2018-07-16 12:25:26,4.126s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-16 12:25:26,2018-07-16 12:25:26,0.003s,PASSED

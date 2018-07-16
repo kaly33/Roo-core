@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,Firefox 47.0,,2018-07-09 17:55:10,2018-07-09 17:57:14,2m - 4.556s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,Firefox 47.0,,2018-07-09 17:55:10,2018-07-09 17:57:14,2m - 3.865s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-07-09 17:55:10,2018-07-09 17:55:10,0.007s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Firefox 47.0,,2018-07-09 17:55:10,2018-07-09 17:55:28,17.700s,PASSED
+waitForElementClickable,Firefox 47.0,,2018-07-09 17:55:28,2018-07-09 17:55:28,0.046s,PASSED
+click,Firefox 47.0,,2018-07-09 17:55:28,2018-07-09 17:55:28,0.104s,PASSED
+waitForElementVisible,Firefox 47.0,,2018-07-09 17:55:28,2018-07-09 17:55:29,0.581s,PASSED
+setText,Firefox 47.0,,2018-07-09 17:55:29,2018-07-09 17:55:29,0.177s,PASSED
+click,Firefox 47.0,,2018-07-09 17:55:29,2018-07-09 17:55:32,2.736s,PASSED
+callTestCase,Firefox 47.0,,2018-07-09 17:55:32,2018-07-09 17:55:44,11.836s,PASSED
+waitForElementPresent,Firefox 47.0,,2018-07-09 17:55:44,2018-07-09 17:55:54,10.201s,PASSED
+setText,Firefox 47.0,,2018-07-09 17:55:54,2018-07-09 17:55:54,0.307s,PASSED
+click,Firefox 47.0,,2018-07-09 17:55:54,2018-07-09 17:55:55,0.620s,PASSED
+takeScreenshot,Firefox 47.0,,2018-07-09 17:55:55,2018-07-09 17:55:55,0.188s,PASSED
+waitForElementPresent,Firefox 47.0,,2018-07-09 17:55:55,2018-07-09 17:55:55,0.034s,PASSED
+click,Firefox 47.0,,2018-07-09 17:55:55,2018-07-09 17:55:56,0.546s,PASSED
+click,Firefox 47.0,,2018-07-09 17:55:56,2018-07-09 17:55:57,1.828s,PASSED
+switchToWindowIndex,Firefox 47.0,,2018-07-09 17:55:57,2018-07-09 17:55:58,0.140s,PASSED
+refresh,Firefox 47.0,,2018-07-09 17:55:58,2018-07-09 17:55:58,0.114s,PASSED
+waitForPageLoad,Firefox 47.0,,2018-07-09 17:55:58,2018-07-09 17:56:04,6.384s,PASSED
+callTestCase,Firefox 47.0,,2018-07-09 17:56:04,2018-07-09 17:56:21,17.235s,PASSED
+waitForPageLoad,Firefox 47.0,,2018-07-09 17:56:21,2018-07-09 17:56:21,0.014s,PASSED
+callTestCase,Firefox 47.0,,2018-07-09 17:56:21,2018-07-09 17:57:12,50.569s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-07-09 17:57:12,2018-07-09 17:57:12,0.004s,PASSED

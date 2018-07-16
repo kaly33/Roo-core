@@ -25,17 +25,17 @@ CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
 
 WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/tab_Copy Referral Link'))
 
-WebUI.takeScreenshot()
-
-WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
+not_run: WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
 
 not_run: String url = WebUI.getText(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'))
 
 WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
 
+WebUI.takeScreenshot()
+
 WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
 
-WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'))
+WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

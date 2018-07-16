@@ -1,0 +1,44 @@
+1
+00:00:00,136 --> 00:00:00,136
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:14,587 --> 00:00:14,587
+5. click
+
+3
+00:00:16,780 --> 00:00:16,782
+9. takeScreenshot
+
+4
+00:00:16,896 --> 00:00:16,896
+13. takeScreenshot
+
+5
+00:00:17,024 --> 00:00:17,025
+17. Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Admin Dashboard/Copy Referral Link/copy_Referral_url))
+
+6
+00:00:17,027 --> 00:00:17,028
+21. waitForElementVisible
+
+7
+00:01:57,457 --> 00:01:57,458
+25. waitForElementClickable
+
+8
+00:01:57,581 --> 00:01:57,582
+29. click
+
+9
+00:01:58,281 --> 00:01:58,282
+1. Statement - println(testCaseContext.getTestCaseId())
+
+10
+00:01:58,283 --> 00:01:58,283
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+11
+00:02:00,381 --> 00:02:00,382
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

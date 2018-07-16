@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create Loan Manually Test Suite,Firefox 47.0,,2018-06-07 18:19:13,2018-06-07 18:19:52,38.395s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Create Loan Manually,Firefox 47.0,,2018-06-07 18:19:14,2018-06-07 18:19:51,37.429s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-06-07 18:19:14,2018-06-07 18:19:32,17.847s,PASSED
+"Statement - FirstName = ""kaly2""",Firefox 47.0,,2018-06-07 18:19:32,2018-06-07 18:19:32,0.007s,PASSED
+"Statement - LastName = ""kachi""",Firefox 47.0,,2018-06-07 18:19:32,2018-06-07 18:19:32,0.001s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Firefox 47.0,,2018-06-07 18:19:32,2018-06-07 18:19:47,15.141s,PASSED
+click,Firefox 47.0,,2018-06-07 18:19:47,2018-06-07 18:19:47,0.184s,PASSED
+waitForElementVisible,Firefox 47.0,,2018-06-07 18:19:47,2018-06-07 18:19:48,0.580s,PASSED
+setText,Firefox 47.0,,2018-06-07 18:19:48,2018-06-07 18:19:48,0.209s,PASSED
+setText,Firefox 47.0,,2018-06-07 18:19:48,2018-06-07 18:19:48,0.155s,PASSED
+setText,Firefox 47.0,,2018-06-07 18:19:48,2018-06-07 18:19:48,0.141s,PASSED
+waitForElementVisible,Firefox 47.0,,2018-06-07 18:19:48,2018-06-07 18:19:49,0.539s,PASSED
+click,Firefox 47.0,,2018-06-07 18:19:49,2018-06-07 18:19:49,0.205s,PASSED
+verifyElementPresent,Firefox 47.0,,2018-06-07 18:19:49,2018-06-07 18:19:49,0.033s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-06-07 18:19:49,2018-06-07 18:19:49,0.014s,PASSED

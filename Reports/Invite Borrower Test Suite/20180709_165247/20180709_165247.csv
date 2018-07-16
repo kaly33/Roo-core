@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,Firefox 47.0,,2018-07-09 16:52:49,2018-07-09 16:54:13,1m - 24.477s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,Firefox 47.0,,2018-07-09 16:52:49,2018-07-09 16:54:13,1m - 23.756s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-07-09 16:52:49,2018-07-09 16:52:49,0.016s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Firefox 47.0,,2018-07-09 16:52:49,2018-07-09 16:53:11,21.730s,PASSED
+waitForElementClickable,Firefox 47.0,,2018-07-09 16:53:11,2018-07-09 16:53:11,0.061s,PASSED
+click,Firefox 47.0,,2018-07-09 16:53:11,2018-07-09 16:53:11,0.134s,PASSED
+waitForElementVisible,Firefox 47.0,,2018-07-09 16:53:11,2018-07-09 16:53:12,0.597s,PASSED
+setText,Firefox 47.0,,2018-07-09 16:53:12,2018-07-09 16:53:12,0.182s,PASSED
+click,Firefox 47.0,,2018-07-09 16:53:12,2018-07-09 16:53:15,3.003s,PASSED
+callTestCase,Firefox 47.0,,2018-07-09 16:53:15,2018-07-09 16:53:27,12.205s,PASSED
+waitForElementPresent,Firefox 47.0,,2018-07-09 16:53:27,2018-07-09 16:53:39,11.533s,PASSED
+setText,Firefox 47.0,,2018-07-09 16:53:39,2018-07-09 16:53:42,2.855s,PASSED
+click,Firefox 47.0,,2018-07-09 16:53:42,2018-07-09 16:53:42,0.205s,PASSED
+takeScreenshot,Firefox 47.0,,2018-07-09 16:53:42,2018-07-09 16:53:42,0.243s,PASSED
+waitForElementPresent,Firefox 47.0,,2018-07-09 16:53:42,2018-07-09 16:53:42,0.052s,PASSED
+click,Firefox 47.0,,2018-07-09 16:53:42,2018-07-09 16:53:43,0.564s,PASSED
+click,Firefox 47.0,,2018-07-09 16:53:43,2018-07-09 16:53:44,1.609s,PASSED
+switchToWindowIndex,Firefox 47.0,,2018-07-09 16:53:44,2018-07-09 16:53:45,0.168s,PASSED
+refresh,Firefox 47.0,,2018-07-09 16:53:45,2018-07-09 16:53:45,0.469s,PASSED
+waitForPageLoad,Firefox 47.0,,2018-07-09 16:53:45,2018-07-09 16:53:52,6.776s,PASSED
+callTestCase,Firefox 47.0,,2018-07-09 16:53:52,2018-07-09 16:54:10,18.464s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-07-09 16:54:11,2018-07-09 16:54:11,0.096s,PASSED

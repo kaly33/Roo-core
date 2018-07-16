@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,IE 11,,2018-06-07 17:37:06,2018-06-07 17:39:17,2m - 10.100s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Copy Referral Link,IE 11,,2018-06-07 17:37:07,2018-06-07 17:39:16,2m - 8.537s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2018-06-07 17:37:07,2018-06-07 17:37:16,8.093s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,IE 11,,2018-06-07 17:37:16,2018-06-07 17:37:30,14.451s,PASSED
+click,IE 11,,2018-06-07 17:37:30,2018-06-07 17:37:32,2.193s,PASSED
+takeScreenshot,IE 11,,2018-06-07 17:37:32,2018-06-07 17:37:33,0.116s,PASSED
+takeScreenshot,IE 11,,2018-06-07 17:37:33,2018-06-07 17:37:33,0.128s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Admin Dashboard/Copy Referral Link/copy_Referral_url)),IE 11,,2018-06-07 17:37:33,2018-06-07 17:37:33,0.003s,NOT_RUN
+waitForElementVisible,IE 11,,2018-06-07 17:37:33,2018-06-07 17:39:13,1m - 40.430s,PASSED
+waitForElementClickable,IE 11,,2018-06-07 17:39:13,2018-06-07 17:39:13,0.124s,PASSED
+click,IE 11,,2018-06-07 17:39:13,2018-06-07 17:39:14,0.697s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2018-06-07 17:39:14,2018-06-07 17:39:14,0.005s,PASSED

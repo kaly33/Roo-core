@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,IE 11,,2018-06-12 16:37:22,2018-06-12 16:37:42,20.700s,ERROR
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,IE 11,,2018-06-12 16:37:22,2018-06-12 16:37:42,19.688s,ERROR
+Start listener action : sampleBeforeTestCase,IE 11,,2018-06-12 16:37:22,2018-06-12 16:37:28,5.933s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,IE 11,,2018-06-12 16:37:28,2018-06-12 16:37:40,11.454s,ERROR
+Start listener action : sampleAfterTestCase,IE 11,,2018-06-12 16:37:40,2018-06-12 16:37:40,0.008s,PASSED

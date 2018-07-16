@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite-Borrower Submit Loan Application (Admin Invite),Chrome 67.0.3396.99,,2018-07-16 13:03:26,2018-07-16 13:05:06,1m - 39.803s,PASSED
+,,,,,,
+Test Cases/Loan Submission/Borrower Submit Loan Application (Admin Invite),Chrome 67.0.3396.99,,2018-07-16 13:03:27,2018-07-16 13:05:05,1m - 38.697s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-16 13:03:27,2018-07-16 13:03:27,0.010s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:03:27,2018-07-16 13:03:44,17.491s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:03:44,2018-07-16 13:03:51,6.349s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-16 13:03:51,2018-07-16 13:03:54,3.083s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-16 13:03:54,2018-07-16 13:04:01,7.269s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-16 13:04:01,2018-07-16 13:04:01,0.142s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-16 13:04:01,2018-07-16 13:04:02,0.381s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-16 13:04:02,2018-07-16 13:04:02,0.045s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-16 13:04:02,2018-07-16 13:04:02,0.240s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-16 13:04:02,2018-07-16 13:04:02,0.193s,PASSED
+switchToWindowIndex,Chrome 67.0.3396.99,,2018-07-16 13:04:02,2018-07-16 13:04:02,0.031s,PASSED
+refresh,Chrome 67.0.3396.99,,2018-07-16 13:04:02,2018-07-16 13:04:05,3.040s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-16 13:04:05,2018-07-16 13:04:05,0.014s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:04:05,2018-07-16 13:04:17,11.796s,PASSED
+com.common.util.LoginHelper.loginWith,Chrome 67.0.3396.99,,2018-07-16 13:04:17,2018-07-16 13:04:17,0.003s,NOT_RUN
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:04:17,2018-07-16 13:04:31,14.240s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:04:31,2018-07-16 13:04:46,14.709s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:04:46,2018-07-16 13:04:48,1.817s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-16 13:04:48,2018-07-16 13:05:03,15.436s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-16 13:05:03,2018-07-16 13:05:03,0.005s,PASSED

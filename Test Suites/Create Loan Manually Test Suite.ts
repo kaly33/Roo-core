@@ -4,7 +4,7 @@
    <name>Create Loan Manually Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-06T12:14:42</lastRun>
+   <lastRun>2018-06-12T17:33:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

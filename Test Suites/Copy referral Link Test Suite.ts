@@ -4,7 +4,7 @@
    <name>Copy referral Link Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-06T12:14:42</lastRun>
+   <lastRun>2018-07-16T12:07:56</lastRun>
    <mailRecipient>kalyani.kachhi@talentica.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

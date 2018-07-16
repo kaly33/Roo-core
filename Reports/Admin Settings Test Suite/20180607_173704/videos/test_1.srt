@@ -1,0 +1,60 @@
+1
+00:00:00,306 --> 00:00:00,307
+1. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+2
+00:00:00,319 --> 00:00:00,320
+5. Statement - baseUrl = "https://www.katalon.com/"
+
+3
+00:00:00,321 --> 00:00:00,323
+9. Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:00,433 --> 00:00:00,441
+13. Statement - selenium.open("https://roostify-navy-test.herokuapp.com/")
+
+5
+00:00:01,727 --> 00:00:01,732
+17. Statement - selenium.type("id=user_email", "kkachhi+admin@roostify.com")
+
+6
+00:00:02,018 --> 00:00:02,022
+21. Statement - selenium.type("id=user_password", "Kal@3333")
+
+7
+00:00:02,241 --> 00:00:02,242
+25. Statement - selenium.click("id=sign_in_button")
+
+8
+00:00:02,468 --> 00:00:02,471
+29. Statement - selenium.waitForPageToLoad("5000")
+
+9
+00:00:03,009 --> 00:00:03,010
+33. Statement - selenium.click("//body[@id='dashboard_controller']/div[6]/div/div/ul/li/a/span")
+
+10
+00:00:03,087 --> 00:00:03,088
+1. Statement - println(testCaseContext.getTestCaseId())
+
+11
+00:00:03,089 --> 00:00:03,090
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+12
+00:00:05,129 --> 00:00:05,130
+1. Statement - println(testCaseContext.getTestCaseId())
+
+13
+00:00:05,131 --> 00:00:05,131
+5. Statement - println(testCaseContext.getTestCaseVariables())
+
+14
+00:00:05,132 --> 00:00:05,133
+9. openBrowser
+
+15
+00:00:21,169 --> 00:00:21,170
+13. maximizeWindow
+

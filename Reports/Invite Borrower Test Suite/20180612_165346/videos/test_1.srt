@@ -1,0 +1,156 @@
+1
+00:00:00,174 --> 00:00:00,176
+1. com.common.util.LoginHelper.LoginWithAdmin
+
+2
+00:00:09,128 --> 00:00:09,128
+5. waitForElementClickable
+
+3
+00:00:09,174 --> 00:00:09,175
+9. click
+
+4
+00:00:09,292 --> 00:00:09,292
+13. waitForElementVisible
+
+5
+00:00:09,886 --> 00:00:09,886
+17. setText
+
+6
+00:00:10,067 --> 00:00:10,067
+21. click
+
+7
+00:00:13,337 --> 00:00:13,337
+25. callTestCase
+
+8
+00:00:13,490 --> 00:00:13,491
+1. openBrowser
+
+9
+00:00:24,604 --> 00:00:24,605
+5. setText
+
+10
+00:00:24,935 --> 00:00:24,935
+9. click
+
+11
+00:00:25,450 --> 00:00:25,451
+13. waitForElementClickable
+
+12
+00:00:26,716 --> 00:00:26,717
+17. setText
+
+13
+00:00:26,899 --> 00:00:26,900
+21. waitForElementClickable
+
+14
+00:00:26,950 --> 00:00:26,950
+25. click
+
+15
+00:00:27,230 --> 00:00:27,230
+29. waitForPageLoad
+
+16
+00:00:27,254 --> 00:00:27,254
+29. waitForElementPresent
+
+17
+00:00:39,003 --> 00:00:39,004
+33. setText
+
+18
+00:00:39,412 --> 00:00:39,413
+37. click
+
+19
+00:00:39,943 --> 00:00:39,943
+41. takeScreenshot
+
+20
+00:00:40,179 --> 00:00:40,179
+45. waitForElementPresent
+
+21
+00:00:40,378 --> 00:00:40,379
+49. click
+
+22
+00:00:40,946 --> 00:00:40,946
+53. click
+
+23
+00:00:42,714 --> 00:00:42,714
+57. switchToWindowIndex
+
+24
+00:00:42,791 --> 00:00:42,791
+61. refresh
+
+25
+00:00:42,844 --> 00:00:42,845
+65. waitForPageLoad
+
+26
+00:00:50,622 --> 00:00:50,623
+69. callTestCase
+
+27
+00:00:50,782 --> 00:00:50,782
+1. waitForPageLoad
+
+28
+00:00:50,799 --> 00:00:50,800
+5. setText
+
+29
+00:00:50,947 --> 00:00:50,948
+9. setText
+
+30
+00:00:51,076 --> 00:00:51,076
+13. setText
+
+31
+00:00:51,273 --> 00:00:51,274
+17. setText
+
+32
+00:00:51,420 --> 00:00:51,420
+21. click
+
+33
+00:00:51,605 --> 00:00:51,605
+25. click
+
+34
+00:00:57,275 --> 00:00:57,276
+29. Statement - dashboardName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Common/Sign In/text_Dashboard Name))
+
+35
+00:00:57,318 --> 00:00:57,319
+33. Statement - fullName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([firstName, " ", lastName], STOP_ON_FAILURE)
+
+36
+00:00:57,322 --> 00:00:57,322
+37. verifyMatch
+
+37
+00:00:57,331 --> 00:00:57,331
+1. Statement - println(testCaseContext.getTestCaseId())
+
+38
+00:00:57,332 --> 00:00:57,346
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+39
+00:00:59,428 --> 00:00:59,428
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invite Borrower Test Suite" time="64" tests="0" failures="1" errors="0">
+   <testsuite name="Invite Borrower Test Suite" tests="0" failures="1" errors="0" time="64" timestamp="2018-06-12 16:55:52" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Invite Borrower Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_165347"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_165347\\execution0.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_165347\\1528802772525.png, D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_165347\\1528802813229.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="694792bc0d84b46fbc8060522048bce0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" classname="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)"/>
+         <system-out><![CDATA[2018-06-12 16:55:52 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)
+
+2018-06-12 16:55:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2018-06-12 16:55:52 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-12 16:55:52 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-12 16:55:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dev.roostify.com'
+
+2018-06-12 16:56:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.roostify.com'
+
+2018-06-12 16:56:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-12 16:56:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-12 16:56:06 - [TEST_STEP][PASSED] - com.common.util.LoginHelper.LoginWithAdmin: com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-12 16:56:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-12 16:56:06 - [MESSAGE][PASSED] - Text 'kkachhi+admin1@roostify.com' is set on object 'Object Repository/Common/Sign In/input_useremail'
+
+2018-06-12 16:56:07 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Common/Sign In/input_userpassword'
+
+2018-06-12 16:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Sign In/button_Sign in' is clicked on
+
+2018-06-12 16:56:12 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Sign In/div_Login_Popup' located by 'By.xpath: //div[@id = 'tutorial-borrower' and (text() = concat('
+
+Application portal tutorial overlay
+
+
+
+
+
+✕
+
+Now, for some homework!
+
+
+
+This space provides a secure way to:
+
+  Complete critical tasks, like signing and providing documents
+  Get updates about your loan’s progress
+  
+Communicate with your mortgage team and other folks you invite to participate
+
+
+Together with your team, you’ll be moving your loan closer to the finish line.
+Don’t worry, you’ll be notified by email of activity while you’re away.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Add Your Documents Online
+
+
+
+
+The Tasks tab tells you what information or action we still need from you.
+This is where you' , "'" , 'll provide the documents we need to process your loan, and sign important documents from us.
+
+
+Click on a task to get started, and follow the directions to upload your documents.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Stay Up-to-Date
+
+
+
+
+As your loan progresses through the key stages, you' , "'" , 'll see the latest activity posted in your Stream.
+
+
+You can comment on activities, post a question or add another person like your Realtor to the transaction.
+To add people, just click Invite a Collaborator.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+We' , "'" , 're Here to Help
+
+
+
+
+Your mortgage team can help answer questions you have along the way.
+Use the Stream and the Chat to get in touch with us at any time.
+We' , "'" , 're looking forward to working with you!
+
+
+
+
+
+Done
+
+
+
+
+
+') or . = concat('
+
+Application portal tutorial overlay
+
+
+
+
+
+✕
+
+Now, for some homework!
+
+
+
+This space provides a secure way to:
+
+  Complete critical tasks, like signing and providing documents
+  Get updates about your loan’s progress
+  
+Communicate with your mortgage team and other folks you invite to participate
+
+
+Together with your team, you’ll be moving your loan closer to the finish line.
+Don’t worry, you’ll be notified by email of activity while you’re away.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Add Your Documents Online
+
+
+
+
+The Tasks tab tells you what information or action we still need from you.
+This is where you' , "'" , 'll provide the documents we need to process your loan, and sign important documents from us.
+
+
+Click on a task to get started, and follow the directions to upload your documents.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Stay Up-to-Date
+
+
+
+
+As your loan progresses through the key stages, you' , "'" , 'll see the latest activity posted in your Stream.
+
+
+You can comment on activities, post a question or add another person like your Realtor to the transaction.
+To add people, just click Invite a Collaborator.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+We' , "'" , 're Here to Help
+
+
+
+
+Your mortgage team can help answer questions you have along the way.
+Use the Stream and the Chat to get in touch with us at any time.
+We' , "'" , 're looking forward to working with you!
+
+
+
+
+
+Done
+
+
+
+
+
+'))]' not found
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_165347\\1528802772525.png]]
+
+2018-06-12 16:56:12 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Sign In/text_Dashboard Name' is present
+
+2018-06-12 16:56:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Common/Sign In/text_Dashboard Name' is: 'Kalyani Admin'
+
+2018-06-12 16:56:12 - [MESSAGE][PASSED] - Concatenated string array: '['Kalyani',' ','Admin']' into 'Kalyani Admin'
+
+2018-06-12 16:56:12 - [MESSAGE][PASSED] - Actual text 'Kalyani Admin' and expected text 'Kalyani Admin' are matched  using regular expression
+
+2018-06-12 16:56:12 - [MESSAGE][PASSED] - com.common.util.LoginHelper.LoginWithAdmin is PASSED
+
+2018-06-12 16:56:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-12 16:56:13 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clickable
+
+2018-06-12 16:56:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-12 16:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/tab_Invite Borrower' is clicked on
+
+2018-06-12 16:56:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email' is visible
+
+2018-06-12 16:56:13 - [MESSAGE][PASSED] - Object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email' is visible
+
+2018-06-12 16:56:13 - [TEST_STEP][PASSED] - setText: Text 'kkachhi+test2@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email'
+
+2018-06-12 16:56:13 - [MESSAGE][PASSED] - Text 'kkachhi+test2@roostify.com' is set on object 'Object Repository/Admin Dashboard/Invite Borrower/input_User Email'
+
+2018-06-12 16:56:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Dashboard/Invite Borrower/button_Invite' is clicked on
+
+2018-06-12 16:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Dashboard/Invite Borrower/button_Invite' is clicked on
+
+2018-06-12 16:56:16 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Gmail Login' (Root cause: Call Test Case 'Test Cases/Common/Gmail Login' failed)
+
+2018-06-12 16:56:16 - [TEST_CASE][FAILED] - Test Cases/Common/Gmail Login: Test Cases/Common/Gmail Login FAILED because (of) Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)
+
+2018-06-12 16:56:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'gmail.com'
+
+2018-06-12 16:56:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-12 16:56:22 - [MESSAGE][PASSED] - Browser is opened with url: 'gmail.com'
+
+2018-06-12 16:56:22 - [TEST_STEP][FAILED] - setText: Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)
+
+2018-06-12 16:56:53 - [MESSAGE][FAILED] - Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_165347\\1528802813229.png]]
+
+2018-06-12 16:56:53 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Gmail Login' (Root cause: Call Test Case 'Test Cases/Common/Gmail Login' failed)
+
+2018-06-12 16:56:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.
+
+2018-06-12 16:56:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-12 16:56:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-06-12 16:55:52 - [TEST_CASE][FAILED] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-12 16:55:52 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-12 16:55:52 - [TEST_SUITE][FAILED] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) Unable to set text 'kkachhi@roostify.com' of object 'Object Repository/Common/Page_Gmail/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Page_Gmail/input_email' located by 'By.xpath: .//*[@id='identifierId']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

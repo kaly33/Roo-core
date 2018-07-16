@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invite Borrower Test Suite" time="20" tests="0" failures="0" errors="1">
+   <testsuite name="Invite Borrower Test Suite" tests="0" failures="0" errors="1" time="20" timestamp="2018-06-12 16:37:22" hostname="KalyaniK - KALYANIK.talentica-all.com" id="Test Suites/Invite Borrower Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_163528"/>
+         <property name="logFiles" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_163528\\execution0.log, D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_163528\\IEDriverServer.log"/>
+         <property name="attachments" value="D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_163528\\1528801659814.png"/>
+         <property name="hostName" value="KalyaniK - KALYANIK.talentica-all.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="172.19.19.84"/>
+         <property name="sessionId" value="4c2e8032-4235-4563-afb0-0302fa8f6004"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" classname="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)"/>
+         <system-out><![CDATA[2018-06-12 16:37:22 - [TEST_CASE][ERROR] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)
+
+2018-06-12 16:37:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+2018-06-12 16:37:22 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-12 16:37:22 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-06-12 16:37:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dev.roostify.com'
+
+2018-06-12 16:37:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.roostify.com'
+
+2018-06-12 16:37:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-12 16:37:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-12 16:37:28 - [TEST_STEP][ERROR] - com.common.util.LoginHelper.LoginWithAdmin: groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)
+
+2018-06-12 16:37:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-12 16:37:29 - [MESSAGE][PASSED] - Text 'kkachhi+admin1@roostify.com' is set on object 'Object Repository/Common/Sign In/input_useremail'
+
+2018-06-12 16:37:30 - [MESSAGE][PASSED] - Text 'Kal@3333' is set on object 'Object Repository/Common/Sign In/input_userpassword'
+
+2018-06-12 16:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Sign In/button_Sign in' is clicked on
+
+2018-06-12 16:37:39 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Common/Sign In/div_Login_Popup' located by 'By.xpath: //div[@id = 'tutorial-borrower' and (text() = concat('
+
+Application portal tutorial overlay
+
+
+
+
+
+✕
+
+Now, for some homework!
+
+
+
+This space provides a secure way to:
+
+  Complete critical tasks, like signing and providing documents
+  Get updates about your loan’s progress
+  
+Communicate with your mortgage team and other folks you invite to participate
+
+
+Together with your team, you’ll be moving your loan closer to the finish line.
+Don’t worry, you’ll be notified by email of activity while you’re away.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Add Your Documents Online
+
+
+
+
+The Tasks tab tells you what information or action we still need from you.
+This is where you' , "'" , 'll provide the documents we need to process your loan, and sign important documents from us.
+
+
+Click on a task to get started, and follow the directions to upload your documents.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Stay Up-to-Date
+
+
+
+
+As your loan progresses through the key stages, you' , "'" , 'll see the latest activity posted in your Stream.
+
+
+You can comment on activities, post a question or add another person like your Realtor to the transaction.
+To add people, just click Invite a Collaborator.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+We' , "'" , 're Here to Help
+
+
+
+
+Your mortgage team can help answer questions you have along the way.
+Use the Stream and the Chat to get in touch with us at any time.
+We' , "'" , 're looking forward to working with you!
+
+
+
+
+
+Done
+
+
+
+
+
+') or . = concat('
+
+Application portal tutorial overlay
+
+
+
+
+
+✕
+
+Now, for some homework!
+
+
+
+This space provides a secure way to:
+
+  Complete critical tasks, like signing and providing documents
+  Get updates about your loan’s progress
+  
+Communicate with your mortgage team and other folks you invite to participate
+
+
+Together with your team, you’ll be moving your loan closer to the finish line.
+Don’t worry, you’ll be notified by email of activity while you’re away.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Add Your Documents Online
+
+
+
+
+The Tasks tab tells you what information or action we still need from you.
+This is where you' , "'" , 'll provide the documents we need to process your loan, and sign important documents from us.
+
+
+Click on a task to get started, and follow the directions to upload your documents.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+Stay Up-to-Date
+
+
+
+
+As your loan progresses through the key stages, you' , "'" , 'll see the latest activity posted in your Stream.
+
+
+You can comment on activities, post a question or add another person like your Realtor to the transaction.
+To add people, just click Invite a Collaborator.
+
+
+
+
+
+Next
+
+
+
+
+
+
+
+✕
+
+We' , "'" , 're Here to Help
+
+
+
+
+Your mortgage team can help answer questions you have along the way.
+Use the Stream and the Chat to get in touch with us at any time.
+We' , "'" , 're looking forward to working with you!
+
+
+
+
+
+Done
+
+
+
+
+
+'))]' not found
+[[ATTACHMENT|D:\\1_Roostify\\Automation\\Roo_Core\\Reports\\Invite Borrower Test Suite\\20180612_163528\\1528801659814.png]]
+
+2018-06-12 16:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Sign In/text_Dashboard Name' is present
+
+2018-06-12 16:37:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Common/Sign In/text_Dashboard Name' is: 'Kalyani Admin'
+
+2018-06-12 16:37:40 - [MESSAGE][PASSED] - Concatenated string array: '['null',' ','null']' into 'null null'
+
+2018-06-12 16:37:40 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)
+
+2018-06-12 16:37:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.
+
+2018-06-12 16:37:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-12 16:37:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-06-12 16:37:22 - [TEST_CASE][ERROR] - Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-12 16:37:22 - [TEST_SUITE][ERROR] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)]]></system-out>
+      <system-err><![CDATA[2018-06-12 16:37:22 - [TEST_SUITE][ERROR] - Invite Borrower Test Suite: Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: java.io.PrintStream.println() is applicable for argument types: (java.lang.String, java.lang.String) values: [dashboardName= Kalyani Admin, expectedfullName=null null]
+Possible solutions: println(), println(), println(java.lang.String), println([C), println(boolean), println(char)]]></system-err>
+   </testsuite>
+</testsuites>

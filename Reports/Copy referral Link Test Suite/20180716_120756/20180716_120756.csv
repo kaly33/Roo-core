@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Copy referral Link Test Suite,Chrome 67.0.3396.99,,2018-07-16 12:07:58,2018-07-16 12:08:19,21.138s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Copy Referral Link,Chrome 67.0.3396.99,,2018-07-16 12:07:58,2018-07-16 12:08:19,20.610s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-16 12:07:58,2018-07-16 12:07:58,0.010s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Chrome 67.0.3396.99,,2018-07-16 12:07:59,2018-07-16 12:08:15,16.226s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-16 12:08:15,2018-07-16 12:08:15,0.108s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-16 12:08:15,2018-07-16 12:08:15,0.019s,NOT_RUN
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Admin Dashboard/Copy Referral Link/copy_Referral_url)),Chrome 67.0.3396.99,,2018-07-16 12:08:15,2018-07-16 12:08:15,0.003s,NOT_RUN
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-16 12:08:15,2018-07-16 12:08:16,0.584s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-16 12:08:16,2018-07-16 12:08:16,0.288s,PASSED
+waitForElementClickable,Chrome 67.0.3396.99,,2018-07-16 12:08:16,2018-07-16 12:08:16,0.068s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-16 12:08:16,2018-07-16 12:08:16,0.066s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-16 12:08:16,2018-07-16 12:08:17,0.893s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-16 12:08:17,2018-07-16 12:08:17,0.006s,PASSED

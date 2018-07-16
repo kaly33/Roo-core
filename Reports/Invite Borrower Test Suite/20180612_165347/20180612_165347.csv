@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invite Borrower Test Suite,Chrome 67.0.3396.79,,2018-06-12 16:55:52,2018-06-12 16:56:56,1m - 4.162s,FAILED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,Chrome 67.0.3396.79,,2018-06-12 16:55:52,2018-06-12 16:56:55,1m - 3.048s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-12 16:55:52,2018-06-12 16:56:06,13.462s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Chrome 67.0.3396.79,,2018-06-12 16:56:06,2018-06-12 16:56:12,6.445s,PASSED
+waitForElementClickable,Chrome 67.0.3396.79,,2018-06-12 16:56:12,2018-06-12 16:56:13,0.041s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-12 16:56:13,2018-06-12 16:56:13,0.064s,PASSED
+waitForElementVisible,Chrome 67.0.3396.79,,2018-06-12 16:56:13,2018-06-12 16:56:13,0.600s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-12 16:56:13,2018-06-12 16:56:13,0.181s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-12 16:56:13,2018-06-12 16:56:16,2.372s,PASSED
+callTestCase,Chrome 67.0.3396.79,,2018-06-12 16:56:16,2018-06-12 16:56:53,37.595s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-12 16:56:53,2018-06-12 16:56:53,0.007s,PASSED

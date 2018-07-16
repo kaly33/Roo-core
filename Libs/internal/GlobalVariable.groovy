@@ -76,20 +76,29 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object AdminFirstname
+    public static Object Borrower2FirstName
      
     /**
      * <p></p>
      */
-    public static Object AdminLastname
+    public static Object Borrower2LastName
+     
+    /**
+     * <p></p>
+     */
+    public static Object Borrower3FirstName
+     
+    /**
+     * <p></p>
+     */
+    public static Object Borrower3LastName
      
 
     static {
         def allVariables = [:]        
         allVariables.put('default', ['GmailEmail' : 'kkachhi@roostify.com', 'GmailPassword' : 'kaly@33333'])
-        allVariables.put('Gobal Variables_Dev', allVariables['default'] + ['AdminEmail' : 'kkachhi+admin@roostify.com', 'GmailEmail' : 'kkachhi@roostify.com', 'Password' : 'Kal@3333', 'GmailPassword' : 'kaly@33333', 'AdminFirstName' : 'Kalyani', 'AdminLastName' : 'Admin', 'BaseURL' : 'https://dev.roostify.com', 'BorrowerEmail1' : 'kkachhi+test1@roostify.com', 'BorrowerEmail2' : 'kkachhi+test2@roostify.com', 'BorrowerEmail3' : 'kkachhi+test3@roostify.com', 'Borrower1FirstName' : 'kaly1', 'Borrower1LastName' : 'kachhi'])
-        allVariables.put('Gobal Variables_QA', allVariables['default'] + ['AdminEmail' : 'kkachhi+admin@roostify.com', 'GmailEmail' : 'kkachhi@roostify.com', 'Password' : 'Kal@3333', 'GmailPassword' : 'kaly@33333', 'AdminFirstName' : 'Kalyani', 'AdminLastName' : 'Admin', 'BaseURL' : 'https://roostify-dev-pr-6203.herokuapp.com/', 'BorrowerEmail1' : 'kkachhi+test13@roostify.com', 'BorrowerEmail2' : 'kkachhi+test14@roostify.com', 'BorrowerEmail3' : 'kkachhi+test15@roostify.com', 'Borrower1FirstName' : 'kaly1', 'Borrower1LastName' : 'kachhi'])
-        allVariables.put('Gobal Variables_QA Post Merge', allVariables['default'] + ['AdminEmail' : 'kkachhi+admin@roostify.com', 'GmailEmail' : 'kkachhi@roostify.com', 'Password' : 'Kal@3333', 'GmailPassword' : 'kaly@33333', 'AdminFirstName' : 'Kalyani', 'AdminLastName' : 'Admin', 'BaseURL' : 'https://roostify-navy-test.herokuapp.com/', 'BorrowerEmail1' : 'kkachhi+test1@roostify.com', 'BorrowerEmail2' : 'kkachhi+test8@roostify.com', 'BorrowerEmail3' : 'kkachhi+test2@roostify.com', 'Borrower1FirstName' : 'Kaly2', 'Borrower1LastName' : 'Kachhi', 'AdminFirstname' : 'Kalyani', 'AdminLastname' : 'Admin'])
+        allVariables.put('Dev environment', allVariables['default'] + ['AdminEmail' : 'kkachhi+admin1@roostify.com', 'Password' : 'Kal@3333', 'AdminFirstName' : 'Kalyani', 'AdminLastName' : 'Admin', 'BaseURL' : 'https://dev.roostify.com', 'BorrowerEmail1' : 'kkachhi+test1@roostify.com', 'BorrowerEmail2' : 'kkachhi+test1@roostify.com', 'BorrowerEmail3' : 'kkachhi+test3@roostify.com', 'Borrower1FirstName' : 'Kaly1', 'Borrower1LastName' : 'Kachhi'])
+        allVariables.put('QA environment', allVariables['default'] + ['AdminEmail' : 'kkachhi+admin@roostify.com', 'GmailEmail' : 'kkachhi@roostify.com', 'Password' : 'Kal@3333', 'GmailPassword' : 'kaly@33333', 'AdminFirstName' : 'Kalyani', 'AdminLastName' : 'Admin', 'BaseURL' : 'https://roostify-blueprint-dev.herokuapp.com/users/sign_in?a=blueprintdev', 'BorrowerEmail1' : 'kkachhi+test1@roostify.com', 'BorrowerEmail2' : 'kkachhi+test10@roostify.com', 'BorrowerEmail3' : 'kkachhi+test3@roostify.com', 'Borrower1FirstName' : 'Kaly1', 'Borrower1LastName' : 'Kachhi', 'Borrower2FirstName' : 'Kaly2', 'Borrower2LastName' : 'Kachhi', 'Borrower3FirstName' : 'Kaly3', 'Borrower3LastName' : 'Kachhi'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -106,8 +115,10 @@ public class GlobalVariable {
         BorrowerEmail3 = selectedVariables['BorrowerEmail3']
         Borrower1FirstName = selectedVariables['Borrower1FirstName']
         Borrower1LastName = selectedVariables['Borrower1LastName']
-        AdminFirstname = selectedVariables['AdminFirstname']
-        AdminLastname = selectedVariables['AdminLastname']
+        Borrower2FirstName = selectedVariables['Borrower2FirstName']
+        Borrower2LastName = selectedVariables['Borrower2LastName']
+        Borrower3FirstName = selectedVariables['Borrower3FirstName']
+        Borrower3LastName = selectedVariables['Borrower3LastName']
         
     }
 }

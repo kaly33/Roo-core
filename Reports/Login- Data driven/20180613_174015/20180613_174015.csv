@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login- Data driven,Chrome 67.0.3396.79,,2018-06-13 17:40:17,2018-06-13 17:41:20,1m - 2.728s,PASSED
+,,,,,,
+Test Cases/Common/Login with different users,Chrome 67.0.3396.79,,2018-06-13 17:40:17,2018-06-13 17:40:42,24.454s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-13 17:40:17,2018-06-13 17:40:31,13.945s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-13 17:40:31,2018-06-13 17:40:34,2.409s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-13 17:40:34,2018-06-13 17:40:38,4.595s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 17:40:38,2018-06-13 17:40:39,0.265s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 17:40:39,2018-06-13 17:40:39,0.147s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-13 17:40:39,2018-06-13 17:40:39,0.157s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-13 17:40:39,2018-06-13 17:40:40,0.678s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-13 17:40:40,2018-06-13 17:40:40,0.005s,PASSED
+,,,,,,
+Test Cases/Common/Login with different users,Chrome 67.0.3396.79,,2018-06-13 17:40:42,2018-06-13 17:41:01,19.087s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-13 17:40:42,2018-06-13 17:40:50,8.580s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-13 17:40:50,2018-06-13 17:40:52,2.047s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-13 17:40:52,2018-06-13 17:40:57,5.247s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 17:40:57,2018-06-13 17:40:58,0.181s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 17:40:58,2018-06-13 17:40:58,0.117s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-13 17:40:58,2018-06-13 17:40:58,0.112s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-13 17:40:58,2018-06-13 17:40:59,0.736s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-13 17:40:59,2018-06-13 17:40:59,0.004s,PASSED
+,,,,,,
+Test Cases/Common/Login with different users,Chrome 67.0.3396.79,,2018-06-13 17:41:01,2018-06-13 17:41:19,18.798s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-13 17:41:01,2018-06-13 17:41:09,8.738s,PASSED
+openBrowser,Chrome 67.0.3396.79,,2018-06-13 17:41:09,2018-06-13 17:41:12,2.162s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-13 17:41:12,2018-06-13 17:41:16,4.522s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 17:41:16,2018-06-13 17:41:16,0.210s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-13 17:41:16,2018-06-13 17:41:16,0.124s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-13 17:41:16,2018-06-13 17:41:17,0.142s,PASSED
+closeBrowser,Chrome 67.0.3396.79,,2018-06-13 17:41:17,2018-06-13 17:41:17,0.846s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-13 17:41:17,2018-06-13 17:41:17,0.003s,PASSED

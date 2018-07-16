@@ -43,4 +43,6 @@ WebUI.verifyElementPresent(findTestObject('Admin Settings/AdminProfile/msg_Chang
 
 WebUI.sendKeys(findTestObject('Object Repository/Admin Settings/AdminProfile/button_Upload Profile Photo'), 'D:/1_Roostify/images/pic2.jpg')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Admin Settings/AdminProfile/msg_User photo upload successful'), 5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Admin Settings/AdminProfile/msg_User photo upload successful'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()

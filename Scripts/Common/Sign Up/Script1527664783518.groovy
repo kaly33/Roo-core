@@ -19,16 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.openBrowser(' https://dev.roostify.com/users/sign_up/?r=kalyaniadmin')
-WebUI.waitForPageLoad(10)
-WebUI.setText(findTestObject('Common/Sign Up/input_userfirst_name'), firstName)
-WebUI.setText(findTestObject('Common/Sign Up/input_userlast_name'), lastName)
-WebUI.setText(findTestObject('Common/Sign Up/input_User email'), email)
-WebUI.setText(findTestObject('Common/Sign Up/input_userpassword'),password)
+//WebUI.openBrowser("https://roostify-blueprint-dev.herokuapp.com/users/sign_up?a=blueprintdev")
+WebUI.waitForPageLoad(3)
+WebUI.setText(findTestObject('Common/Sign Up/input_userfirst_name'), FirstName)
+WebUI.setText(findTestObject('Common/Sign Up/input_userlast_name'), LastName)
+WebUI.setText(findTestObject('Common/Sign Up/input_User email'), Email)
+WebUI.setText(findTestObject('Common/Sign Up/input_userpassword'), Password)
 WebUI.click(findTestObject('Common/Sign Up/input_TermsnConditions_check'))
 WebUI.click(findTestObject('Common/Sign Up/button_Start Application'))
 String dashboardName= WebUI.getText(findTestObject('Common/Sign In/text_Dashboard Name'))
-String fullName=WebUI.concatenate([firstName,' ',lastName] as String[], FailureHandling.STOP_ON_FAILURE)
+String fullName=WebUI.concatenate([FirstName,' ',LastName] as String[], FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyMatch(dashboardName, fullName, true)
 	
 
