@@ -40,11 +40,11 @@ WebUI.click(findTestObject('Common/Page_Gmail/Start Application'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
 WebUI.refresh()
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
 WebUI.callTestCase(findTestCase('Common/Sign Up'), [('Email') : GlobalVariable.BorrowerEmail2, ('FirstName') : GlobalVariable.Borrower2FirstName, 
 ('LastName') : GlobalVariable.Borrower2LastName, ('Password') : GlobalVariable.Password], FailureHandling.STOP_ON_FAILURE)

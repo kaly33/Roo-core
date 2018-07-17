@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.refresh()
-
 WebUI.waitForElementClickable(findTestObject('Object Repository/Admin Settings/Admin settings dropdown/Top_User name'), 3)
 
 WebUI.click(findTestObject('Admin Settings/Admin settings dropdown/Top_User name'))

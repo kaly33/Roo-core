@@ -33,13 +33,15 @@ String url = WebUI.getAttribute(findTestObject('Admin Dashboard/Copy Referral Li
 
 System.out.println(url)
 
-WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
+//WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 3)
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
+WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 3)
 
 WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('Common/Sign Out'), [:], FailureHandling.STOP_ON_FAILURE)
 
