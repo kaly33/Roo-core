@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'gmail pwd'</initValue>
+      <initValue>'Kal@3333'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -53,5 +53,25 @@
       <description></description>
       <initValue>'Kachhi'</initValue>
       <name>Borrower1LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kaly2'</initValue>
+      <name>Borrower2FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kachhi'</initValue>
+      <name>Borrower2LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kaly3'</initValue>
+      <name>Borrower3FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kachhi'</initValue>
+      <name>Borrower3LastName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

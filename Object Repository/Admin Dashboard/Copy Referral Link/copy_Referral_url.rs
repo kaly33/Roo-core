@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;referral_url&quot;)[count(. | //input[@class = 'copyable-url' and @id = 'referral_url' and @onfocus = 'this.select();' and @onmouseup = 'return false;' and @readonly = 'readonly' and @type = 'text']) = count(//input[@class = 'copyable-url' and @id = 'referral_url' and @onfocus = 'this.select();' and @onmouseup = 'return false;' and @readonly = 'readonly' and @type = 'text'])]</value>
+         <value>id(&quot;referral_url&quot;)[count(. | //input[@class = 'copyable-url' and @id = 'referral_url' and @type = 'text']) = count(//input[@class = 'copyable-url' and @id = 'referral_url' and @type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,21 +34,21 @@
       <value>referral_url</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onfocus</name>
       <type>Main</type>
       <value>this.select();</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onmouseup</name>
       <type>Main</type>
       <value>return false;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>readonly</name>
       <type>Main</type>

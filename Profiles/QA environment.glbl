@@ -11,18 +11,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi@roostify.com'</initValue>
-      <name>GmailEmail</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'gmail pwd'</initValue>
+      <initValue>'Kal@3333'</initValue>
       <name>Password</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'kaly@33333'</initValue>
-      <name>GmailPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -41,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test1@roostify.com'</initValue>
+      <initValue>'kkachhi+test12@roostify.com'</initValue>
       <name>BorrowerEmail1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -18,32 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-/*Copy Referral Link*/
-//WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.AdminEmail, ('password') : GlobalVariable.Password],    FailureHandling.STOP_ON_FAILURE)
-CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
+WebUI.refresh()
 
-WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/tab_Copy Referral Link'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/Admin Settings/Admin settings dropdown/Top_User name'), 3)
 
-not_run: WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
+WebUI.click(findTestObject('Admin Settings/Admin settings dropdown/Top_User name'))
 
-String url = WebUI.getAttribute(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'), 
-    'Value')
-
-System.out.println(url)
-
-WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
-
-WebUI.takeScreenshot()
-
-WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
-
-WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Common/Sign Out'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl(url)
-
-WebUI.waitForPageLoad(2)
-
+WebUI.click(findTestObject('Object Repository/Common/Sign Out/a_Sign Out'))

@@ -18,32 +18,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-/*Copy Referral Link*/
-//WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.AdminEmail, ('password') : GlobalVariable.Password],    FailureHandling.STOP_ON_FAILURE)
-CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
+WebUI.callTestCase(findTestCase('Admin Dashboard/Verify Admin is able to Copy Referral Link'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/tab_Copy Referral Link'))
+WebUI.callTestCase(findTestCase('Common/Sign Up'), [('Email') : GlobalVariable.BorrowerEmail1, ('FirstName') : GlobalVariable.Borrower1FirstName
+        , ('LastName') : GlobalVariable.Borrower1LastName, ('Password') : GlobalVariable.Password], 
+    FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
+/*Borrower Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Borrower Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Loan Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Loan Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Employment Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Employment Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Assets n Liabilities*/
+WebUI.callTestCase(findTestCase('Loan Pages/Assets n Liabilities'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Income Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Income Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Declarations*/
+WebUI.callTestCase(findTestCase('Loan Pages/Declarations'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Application Release*/
+WebUI.callTestCase(findTestCase('Loan Pages/Application Release'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String url = WebUI.getAttribute(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'), 
-    'Value')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Loan Pages/Application Release/msg_Loan Submitted'), 3)
 
-System.out.println(url)
-
-WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
-
-WebUI.takeScreenshot()
-
-WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 100)
-
-WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Common/Sign Out'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl(url)
-
-WebUI.waitForPageLoad(2)
 

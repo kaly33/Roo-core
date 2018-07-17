@@ -46,3 +46,5 @@ WebUI.callTestCase(findTestCase('Loan Pages/Declarations'), [:], FailureHandling
 WebUI.callTestCase(findTestCase('Loan Pages/Application Release'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Loan Pages/Application Release/msg_Loan Submitted'), 3)
+
+

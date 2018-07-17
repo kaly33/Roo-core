@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kaly@33333'</initValue>
+      <initValue>'gmail pwd'</initValue>
       <name>GmailPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

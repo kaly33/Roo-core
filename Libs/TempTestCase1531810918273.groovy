@@ -1,4 +1,24 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\kalyanik\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Common\\Sign Out\\20180717_123158\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -18,31 +38,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
+not_run: WebUI.waitForElementClickable(findTestObject('Object Repository/Admin Settings/Admin settings dropdown/Top_User name'), 
+    3)
 
-WebUI.waitForPageLoad(10)
 WebUI.click(findTestObject('Admin Settings/Admin settings dropdown/Top_User name'))
 
-WebUI.click(findTestObject('Admin Settings/Admin settings dropdown/Profile'))
+WebUI.click(findTestObject('Object Repository/Common/Sign Out/a_Sign Out'))
 
-WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_userfirst_name'), 'Kalyani')
-
-WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_userlast_name'), 'Admin')
-
-WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_useremail'), 'kkachhi+admin@roostify.com')
-
-WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_usermobile_phone'),'4567890983')
-
-WebUI.setText(findTestObject('Admin Settings/AdminProfile/input_userhome_phone'),'5431234563')
-
-WebUI.click(findTestObject('Admin Settings/AdminProfile/button_Save'))
-
-WebUI.verifyElementPresent(findTestObject('Admin Settings/AdminProfile/msg_Changes successfully saved'),5)
-
-WebUI.sendKeys(findTestObject('Object Repository/Admin Settings/AdminProfile/button_Upload Profile Photo'), 'D:/1_Roostify/images/pic2.jpg')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Admin Settings/AdminProfile/msg_User photo upload successful'), 5, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
+''', 'Test Cases/Common/Sign Out', new TestCaseBinding('Test Cases/Common/Sign Out', [:]), FailureHandling.STOP_ON_FAILURE , false)
+    
