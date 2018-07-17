@@ -30,18 +30,19 @@ WebUI.waitForElementClickable(findTestObject('Admin Dashboard/icon-ContinueOnBeh
 
 WebUI.click(findTestObject('Admin Dashboard/icon-ContinueOnBehalfOfBorrower'))
 
+/*Borrower Details*/
 WebUI.callTestCase(findTestCase('Loan Pages/Borrower Details'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.callTestCase(findTestCase('Loan Pages/Loan Details'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.callTestCase(findTestCase('Loan Pages/Employment Details'), [:], FailureHandling.STOP_ON_FAILURE)
-
+/*Loan Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Loan Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Employment Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Employment Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Assets n Liabilities*/
 WebUI.callTestCase(findTestCase('Loan Pages/Assets n Liabilities'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.callTestCase(findTestCase('Loan Pages/Income Details'), [:], FailureHandling.STOP_ON_FAILURE)
-
+/*Income Details*/
+WebUI.callTestCase(findTestCase('Loan Pages/Income Details'), [:], FailureHandling.STOP_ON_FAILURE)
+/*Declarations*/
 WebUI.callTestCase(findTestCase('Loan Pages/Declarations'), [:], FailureHandling.STOP_ON_FAILURE)
-
+/*Application Release*/
 WebUI.callTestCase(findTestCase('Loan Pages/Application Release'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Loan Pages/Application Release/msg_Loan Submitted'), 3)
