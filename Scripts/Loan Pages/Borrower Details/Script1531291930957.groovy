@@ -34,7 +34,7 @@ WebUI.selectOptionByValue(findTestObject('Loan Pages/Borrower Details/select_Bir
 
 WebUI.selectOptionByValue(findTestObject('Loan Pages/Borrower Details/select_Birth_Year'), '1990', true)
 
-WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'))
+WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(10)
 
@@ -54,7 +54,7 @@ WebUI.selectOptionByValue(findTestObject('Loan Pages/Borrower Details/select_Yea
 
 WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Yes'))
 
-WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'))
+WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Loan Pages/Borrower Details/checkbox_other_mailing_address'))
 
@@ -63,9 +63,10 @@ WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'))
 
 WebUI.click(findTestObject('Loan Pages/Borrower Details/checkbox_has_coborrower'))
 
-WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'))
+WebUI.click(findTestObject('Loan Pages/Borrower Details/button_Next'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementClickable((findTestObject('Object Repository/Loan Pages/Borrower Details/button_Back')),3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Borrower Details/button_Back'), 
+    3, FailureHandling.OPTIONAL)
 

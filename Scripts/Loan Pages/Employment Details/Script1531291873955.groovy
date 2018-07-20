@@ -21,7 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Employment Details
-
 WebUI.click(findTestObject('Object Repository/Loan Pages/Employment Details/Employment Tab'))
 
 WebUI.waitForPageLoad(2)
@@ -40,23 +39,28 @@ WebUI.click(findTestObject('Loan Pages/Employment Details/button_No_1'))
 
 WebUI.click(findTestObject('Loan Pages/Employment Details/button_Salary'))
 
-WebUI.selectOptionByValue(findTestObject('Loan Pages/Employment Details/select_MonthJanuaryFebruaryMar'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Loan Pages/Employment Details/select_MonthJanuaryFebruaryMar'), 
+    '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Loan Pages/Employment Details/select_Year2018201720162015201'), '2009', true)
+WebUI.selectOptionByValue(findTestObject('Loan Pages/Employment Details/select_Year2018201720162015201'), 
+    '2009', true)
 
 WebUI.click(findTestObject('Loan Pages/Employment Details/button_Yes'))
 
-WebUI.setText(findTestObject('Loan Pages/Employment Details/input_loan_applicationb_employ_1 (1)'), 'Engineer')
+WebUI.setText(findTestObject('Loan Pages/Employment Details/input_loan_applicationb_employ_1 (1)'), 
+    'Engineer')
 
-WebUI.setText(findTestObject('Loan Pages/Employment Details/input_loan_applicationb_employ_2 (1)'), 'NY')
+WebUI.setText(findTestObject('Loan Pages/Employment Details/input_loan_applicationb_employ_2 (1)'), 
+    'NY')
 
 //WebUI.selectOptionByValue(findTestObject('Loan Pages/Employment Details/select_AKALAZARCACOCTDEDCFLGAH'), 'NY', true)
+WebUI.setText(findTestObject('Loan Pages/Employment Details/input_loan_applicationb_employ_3 (1)'), 
+    '4567')
 
-WebUI.setText(findTestObject('Loan Pages/Employment Details/input_loan_applicationb_employ_3 (1)'), '4567')
-
-WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'))
+WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Employment Details/button_Back'), 3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Employment Details/button_Back'), 
+    3, FailureHandling.OPTIONAL)
 

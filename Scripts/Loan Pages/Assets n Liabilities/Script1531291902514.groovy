@@ -20,7 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //Employment Details
-
 WebUI.click(findTestObject('Object Repository/Loan Pages/Assets n Liabilities/Assets n Liabilites Tab'))
 
 WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'))
@@ -35,7 +34,8 @@ WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'))
 
 WebUI.setText(findTestObject('Loan Pages/Assets n Liabilities/input_loan_applicationb_assets'), 'Admac')
 
-WebUI.selectOptionByValue(findTestObject('Loan Pages/Assets n Liabilities/select_Savings AccountChecking'), 'stock', true)
+WebUI.selectOptionByValue(findTestObject('Loan Pages/Assets n Liabilities/select_Savings AccountChecking'), 
+    'stock', true)
 
 WebUI.doubleClick(findTestObject('Loan Pages/Assets n Liabilities/input_loan_applicationb_assets_1'))
 
@@ -43,8 +43,10 @@ WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'))
 
 WebUI.click(findTestObject('Loan Pages/Assets n Liabilities/input_loan_application_b_ongoi'))
 
-WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'))
+WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Assets n Liabilities/button_Back'), 3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Assets n Liabilities/button_Back'), 
+    3, FailureHandling.OPTIONAL)
+

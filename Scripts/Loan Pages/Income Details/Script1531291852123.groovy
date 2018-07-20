@@ -30,8 +30,10 @@ WebUI.click(findTestObject('Loan Pages/Income Details/button_Next'))
 
 WebUI.setText(findTestObject('Loan Pages/Income Details/input_loan_applicationb_income'), '5555')
 
-WebUI.click(findTestObject('Loan Pages/Income Details/button_Next'))
+WebUI.click(findTestObject('Loan Pages/Income Details/button_Next'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Income Details/button_Back'), 3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Income Details/button_Back'), 
+    3, FailureHandling.OPTIONAL)
+

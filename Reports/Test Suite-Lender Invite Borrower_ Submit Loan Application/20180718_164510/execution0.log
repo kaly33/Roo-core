@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514417</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Suite-Lender Invite Borrower_ Submit Loan Application</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Test Suite-Lender Invite Borrower_ Submit Loan Application</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Suite-Lender Invite Borrower_ Submit Loan Application</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514490</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;KalyaniK - KALYANIK.talentica-all.com&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">KalyaniK - KALYANIK.talentica-all.com</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514491</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514491</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;172.19.19.84&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.19.19.84</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514492</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514867</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514868</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting invoke &amp;apos;com.kms.katalon.core.annotation.BeforeTestSuite&amp;apos; method: &amp;apos;TestListeners.sampleBeforeTestSuite(...)&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514933</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514940</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Invoke &amp;apos;com.kms.katalon.core.annotation.BeforeTestSuite&amp;apos; method: &amp;apos;TestListeners.sampleBeforeTestSuite(...)&amp;apos; completed.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514941</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:14</date>
+  <millis>1531912514941</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515341</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower</property>
+  <property name="source">D:\\1_Roostify\\Automation\\Roo_Core\\Test Cases\\Admin Dashboard\\Verify Admin is able to Invite Borrower.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515440</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515443</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515444</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting invoke &amp;apos;com.kms.katalon.core.annotation.BeforeTestCase&amp;apos; method: &amp;apos;TestListeners.sampleBeforeTestCase(...)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515444</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515448</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515449</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515461</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Invoke &amp;apos;com.kms.katalon.core.annotation.BeforeTestCase&amp;apos; method: &amp;apos;TestListeners.sampleBeforeTestCase(...)&amp;apos; completed.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515462</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:15</date>
+  <millis>1531912515462</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:16</date>
+  <millis>1531912516584</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.common.util.LoginHelper.LoginWithAdmin</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:17</date>
+  <millis>1531912517288</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:17</date>
+  <millis>1531912517294</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:17</date>
+  <millis>1531912517521</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536257</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;b4bf5202-1ddd-48f4-8ddf-0c1cd1f2241f&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">b4bf5202-1ddd-48f4-8ddf-0c1cd1f2241f</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536281</millis>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Firefox 47.0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Firefox 47.0</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536282</millis>
+  <sequence>28</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 7&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536284</millis>
+  <sequence>29</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536285</millis>
+  <sequence>30</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536285</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;null&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536299</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536316</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536329</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536411</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536421</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Common/Sign In/input_useremail&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536449</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536458</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536572</millis>
+  <sequence>39</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;null&amp;apos; of object &amp;apos;Object Repository/Common/Sign In/input_useremail&amp;apos; (Root cause: java.lang.IllegalArgumentException: Text is null)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1531912536460.png</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536574</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Common/Sign In/input_userpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536583</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536583</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536679</millis>
+  <sequence>43</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;null&amp;apos; of object &amp;apos;Object Repository/Common/Sign In/input_userpassword&amp;apos; (Root cause: java.lang.IllegalArgumentException: Text is null)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1531912536584.png</property>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536681</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Common/Sign In/button_Sign in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536696</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536696</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:45:36</date>
+  <millis>1531912536703</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Common/Sign In/button_Sign in&amp;apos; located by &amp;apos;By.xpath: //button[@type = &amp;apos;submit&amp;apos; and (text() = &amp;apos;\n\nSign in\n&amp;apos; or . = &amp;apos;\n\nSign in\n&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:46:07</date>
+  <millis>1531912567881</millis>
+  <sequence>48</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Common/Sign In/button_Sign in&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: &amp;apos;Object Repository/Common/Sign In/button_Sign in&amp;apos; located by &amp;apos;By.xpath: //button[@type = &amp;apos;submit&amp;apos; and (text() = &amp;apos;\n\nSign in\n&amp;apos; or . = &amp;apos;\n\nSign in\n&amp;apos;)]&amp;apos; not found)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1531912567814.png</property>
+</record>
+<record>
+  <date>2018-07-18T16:46:07</date>
+  <millis>1531912567882</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Common/Sign In/div_Login_Popup&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:46:07</date>
+  <millis>1531912567896</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:46:07</date>
+  <millis>1531912567897</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-18T16:46:07</date>
+  <millis>1531912567898</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Common/Sign In/div_Login_Popup&amp;apos; located by &amp;apos;By.xpath: //div[@id = &amp;apos;tutorial-borrower&amp;apos; and (text() = concat(&amp;apos;\n\nApplication portal tutorial overlay\n\n\n\n\n\n\u2715\n\nNow, for some homework!\n\n\n\nThis space provides a secure way to:\n\n  Complete critical tasks, like signing and providing documents\n  Get updates about your loan\u2019s progress\n  \nCommunicate with your mortgage team and other folks you invite to participate\n\n\nTogether with your team, you\u2019ll be moving your loan closer to the finish line.\nDon\u2019t worry, you\u2019ll be notified by email of activity while you\u2019re away.\n\n\n\n\n\nNext\n\n\n\n\n\n\n\n\u2715\n\nAdd Your Documents Online\n\n\n\n\nThe Tasks tab tells you what information or action we still need from you.\nThis is where you&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ll provide the documents we need to process your loan, and sign important documents from us.\n\n\nClick on a task to get started, and follow the directions to upload your documents.\n\n\n\n\n\nNext\n\n\n\n\n\n\n\n\u2715\n\nStay Up-to-Date\n\n\n\n\nAs your loan progresses through the key stages, you&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ll see the latest activity posted in your Stream.\n\n\nYou can comment on activities, post a question or add another person like your Realtor to the transaction.\nTo add people, just click Invite a Collaborator.\n\n\n\n\n\nNext\n\n\n\n\n\n\n\n\u2715\n\nWe&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;re Here to Help\n\n\n\n\nYour mortgage team can help answer questions you have along the way.\nUse the Stream and the Chat to get in touch with us at any time.\nWe&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;re looking forward to working with you!\n\n\n\n\n\nDone\n\n\n\n\n\n&amp;apos;) or . = concat(&amp;apos;\n\nApplication portal tutorial overlay\n\n\n\n\n\n\u2715\n\nNow, for some homework!\n\n\n\nThis space provides a secure way to:\n\n  Complete critical tasks, like signing and providing documents\n  Get updates about your loan\u2019s progress\n  \nCommunicate with your mortgage team and other folks you invite to participate\n\n\nTogether with your team, you\u2019ll be moving your loan closer to the finish line.\nDon\u2019t worry, you\u2019ll be notified by email of activity while you\u2019re away.\n\n\n\n\n\nNext\n\n\n\n\n\n\n\n\u2715\n\nAdd Your Documents Online\n\n\n\n\nThe Tasks tab tells you what information or action we still need from you.\nThis is where you&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ll provide the documents we need to process your loan, and sign important documents from us.\n\n\nClick on a task to get started, and follow the directions to upload your documents.\n\n\n\n\n\nNext\n\n\n\n\n\n\n\n\u2715\n\nStay Up-to-Date\n\n\n\n\nAs your loan progresses through the key stages, you&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;ll see the latest activity posted in your Stream.\n\n\nYou can comment on activities, post a question or add another person like your Realtor to the transaction.\nTo add people, just click Invite a Collaborator.\n\n\n\n\n\nNext\n\n\n\n\n\n\n\n\u2715\n\nWe&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;re Here to Help\n\n\n\n\nYour mortgage team can help answer questions you have along the way.\nUse the Stream and the Chat to get in touch with us at any time.\nWe&amp;apos; , \&amp;quot;&amp;apos;\&amp;quot; , &amp;apos;re looking forward to working with you!\n\n\n\n\n\nDone\n\n\n\n\n\n&amp;apos;))]&amp;apos; in &amp;apos;5&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>

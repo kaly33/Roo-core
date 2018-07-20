@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+admin1@roostify.com'</initValue>
+      <initValue>'kkachhi+admin@roostify.com'</initValue>
       <name>AdminEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev.roostify.com'</initValue>
+      <initValue>'https://test.roostify.com'</initValue>
       <name>BaseURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test1@roostify.com'</initValue>
+      <initValue>'kkachhi+test5@roostify.com'</initValue>
       <name>BorrowerEmail1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test3@roostify.com'</initValue>
+      <initValue>'kkachhi+test4@roostify.com'</initValue>
       <name>BorrowerEmail3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

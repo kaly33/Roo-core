@@ -30,7 +30,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite-Lender Invite Borrower_ Submit Loan Application</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite-Borrower Submit Loan Application (Invite Borrower)</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

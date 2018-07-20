@@ -74,8 +74,10 @@ WebUI.click(findTestObject('Loan Pages/Declaration/button_Next'))
 
 WebUI.click(findTestObject('Loan Pages/Declaration/input_loan_application_b_estim'))
 
-WebUI.click(findTestObject('Loan Pages/Declaration/button_Next'))
+WebUI.click(findTestObject('Loan Pages/Declaration/button_Next'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Declaration/button_Back'), 3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Declaration/button_Back'), 
+    3, FailureHandling.OPTIONAL)
+

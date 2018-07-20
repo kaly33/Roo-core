@@ -37,11 +37,12 @@ WebUI.click(findTestObject('Loan Pages/Loan Details/input_loan_application_lead_
 
 WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'))
 
-WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_State_Loan'), 'AL', true)
+WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_State_Loan'), 'AL', true, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Loan Pages/Loan Details/input_loan_City'), 'vegas')
 
-not_run: WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_Country_Targetmarket'), '001', false)
+not_run: WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_Country_Targetmarket'), 
+    '001', false)
 
 WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'))
 
@@ -69,9 +70,10 @@ WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'))
 
 WebUI.click(findTestObject('Loan Pages/Loan Details/input_loan_application_amortiz'))
 
-WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'))
+WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Loan Details/button_Back'), 3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Loan Pages/Loan Details/button_Back'), 
+    3, FailureHandling.OPTIONAL)
 

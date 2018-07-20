@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='loan_application_b_phone']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

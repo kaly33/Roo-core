@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite-Lender Invite Borrower_ Submit Loan Application,Chrome 67.0.3396.99,,2018-07-20 11:38:43,2018-07-20 11:39:05,22.068s,PASSED
+,,,,,,
+Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,Chrome 67.0.3396.99,,2018-07-20 11:38:44,2018-07-20 11:39:04,20.790s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-20 11:38:44,2018-07-20 11:38:44,0.009s,PASSED
+com.common.util.LoginHelper.LoginWithAdmin,Chrome 67.0.3396.99,,2018-07-20 11:38:44,2018-07-20 11:38:58,13.898s,PASSED
+waitForElementClickable,Chrome 67.0.3396.99,,2018-07-20 11:38:58,2018-07-20 11:38:58,0.047s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-20 11:38:58,2018-07-20 11:38:58,0.072s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-20 11:38:58,2018-07-20 11:38:59,0.573s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-20 11:38:59,2018-07-20 11:38:59,0.179s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-20 11:38:59,2018-07-20 11:39:02,3.597s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-20 11:39:02,2018-07-20 11:39:02,0.005s,PASSED
