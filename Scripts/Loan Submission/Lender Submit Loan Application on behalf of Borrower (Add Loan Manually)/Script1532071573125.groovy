@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('Admin Dashboard/Verify Admin is able to Create 
 
 WebUI.refresh()
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
 WebUI.waitForElementClickable(findTestObject('Admin Dashboard/icon-ContinueOnBehalfOfBorrower'), 3)
 

@@ -4,7 +4,7 @@
    <name>Test Suite-Borrower Submit Loan Application (Invite Borrower)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-20T11:35:32</lastRun>
+   <lastRun>2018-07-20T15:12:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

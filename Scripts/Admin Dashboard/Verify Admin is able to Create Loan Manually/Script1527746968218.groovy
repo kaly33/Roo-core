@@ -39,4 +39,4 @@ WebUI.click(findTestObject('Object Repository/Admin Dashboard/Create Loan Manual
 
 WebUI.verifyElementPresent(findTestObject('Admin Dashboard/Create Loan Manually/msg_Loan created successfully'), 10, FailureHandling.STOP_ON_FAILURE)
 
-
+WebUI.waitForPageLoad(3)

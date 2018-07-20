@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite-Borrower Submit Loan Application (Invite Borrower),IE 11,,2018-07-20 15:15:27,2018-07-20 15:16:22,55.090s,FAILED
+,,,,,,
+Test Cases/Loan Submission/Borrower Submit Loan Application (Invite Borrower),IE 11,,2018-07-20 15:15:27,2018-07-20 15:16:21,54.210s,FAILED
+Start listener action : sampleBeforeTestCase,IE 11,,2018-07-20 15:15:27,2018-07-20 15:15:27,0.009s,PASSED
+callTestCase,IE 11,,2018-07-20 15:15:28,2018-07-20 15:15:56,28.120s,PASSED
+callTestCase,IE 11,,2018-07-20 15:15:56,2018-07-20 15:16:16,20.414s,PASSED
+waitForElementPresent,IE 11,,2018-07-20 15:16:16,2018-07-20 15:16:19,3.330s,FAILED
+Start listener action : sampleAfterTestCase,IE 11,,2018-07-20 15:16:19,2018-07-20 15:16:19,0.006s,PASSED
