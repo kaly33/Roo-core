@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Admin is able to Create Loan Manually</description>
    <name>Verify Admin is able to Create Loan Manually</name>
    <tag></tag>
    <comment></comment>

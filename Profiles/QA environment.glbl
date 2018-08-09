@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+admin@roostify.com'</initValue>
+      <initValue>'maldanese+bow@roostify.com'</initValue>
       <name>AdminEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kal@3333'</initValue>
+      <initValue>'Kiev2015'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,32 +26,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://roostify-blueprint-dev.herokuapp.com/users/sign_in?a=blueprintdev'</initValue>
+      <initValue>'https://roostify-bow.herokuapp.com/'</initValue>
       <name>BaseURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test30@roostify.com'</initValue>
+      <initValue>'kkachhi+test1@roostify.com'</initValue>
       <name>BorrowerEmail1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test31@roostify.com'</initValue>
+      <initValue>'kkachhi+test2@roostify.com'</initValue>
       <name>BorrowerEmail2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test32@roostify.com'</initValue>
+      <initValue>'kkachhi+test3@roostify.com'</initValue>
       <name>BorrowerEmail3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kaly1'</initValue>
+      <initValue>'Kaly'</initValue>
       <name>Borrower1FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kachhi'</initValue>
+      <initValue>'test1'</initValue>
       <name>Borrower1LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,17 +61,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kachhi'</initValue>
+      <initValue>'test2'</initValue>
       <name>Borrower2LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kaly3'</initValue>
+      <initValue>'Kaly'</initValue>
       <name>Borrower3FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kachhi'</initValue>
+      <initValue>'test3'</initValue>
       <name>Borrower3LastName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

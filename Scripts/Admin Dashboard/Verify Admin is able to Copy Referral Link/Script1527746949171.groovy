@@ -20,20 +20,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 /*Copy Referral Link*/
 //WebUI.callTestCase(findTestCase('Common/Sign In'), [('email') : GlobalVariable.AdminEmail, ('password') : GlobalVariable.Password],    FailureHandling.STOP_ON_FAILURE)
 CustomKeywords.'com.common.util.LoginHelper.LoginWithAdmin'()
 
 WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/tab_Copy Referral Link'))
 
-not_run: WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
+WebUI.takeScreenshot('D:\\copylinkscreenshot1.png')
 
 String url = WebUI.getAttribute(findTestObject('Admin Dashboard/Copy Referral Link/copy_Referral_url'), 
     'Value')
 
 System.out.println(url)
-
-//WebUI.waitForElementVisible(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), 3)
 
 WebUI.takeScreenshot()
 
@@ -41,7 +40,7 @@ WebUI.waitForElementClickable(findTestObject('Admin Dashboard/Copy Referral Link
 
 WebUI.click(findTestObject('Admin Dashboard/Copy Referral Link/button_Close'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+CustomKeywords.'com.common.util.refreshBrowser.refreshPage'()
 
 WebUI.callTestCase(findTestCase('Common/Sign Out'), [:], FailureHandling.STOP_ON_FAILURE)
 

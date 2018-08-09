@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
 //Employment Details
 WebUI.click(findTestObject('Object Repository/Loan Pages/Employment Details/Employment Tab'))
 
-WebUI.waitForPageLoad(2)
+WebUI.waitForPageLoad(3)
 
 WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next'))
 

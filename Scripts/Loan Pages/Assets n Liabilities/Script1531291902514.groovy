@@ -22,6 +22,8 @@ import internal.GlobalVariable as GlobalVariable
 //Employment Details
 WebUI.click(findTestObject('Object Repository/Loan Pages/Assets n Liabilities/Assets n Liabilites Tab'))
 
+WebUI.waitForPageLoad(3)
+
 WebUI.click(findTestObject('Loan Pages/Employment Details/button_Next (1)'))
 
 WebUI.click(findTestObject('Loan Pages/Assets n Liabilities/input_loan_application_b_curre'))

@@ -26,32 +26,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://test.roostify.com'</initValue>
+      <initValue>'https://roostify-blueprint-dev.herokuapp.com/users/sign_in?a=blueprintdev'</initValue>
       <name>BaseURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test5@roostify.com'</initValue>
+      <initValue>'kkachhi+test31@roostify.com'</initValue>
       <name>BorrowerEmail1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test1@roostify.com'</initValue>
+      <initValue>'kkachhi+test2@roostify.com'</initValue>
       <name>BorrowerEmail2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'kkachhi+test4@roostify.com'</initValue>
+      <initValue>'kkachhi+test3@roostify.com'</initValue>
       <name>BorrowerEmail3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kaly1'</initValue>
+      <initValue>'Kaly31'</initValue>
       <name>Borrower1FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kachhi'</initValue>
+      <initValue>'kachhi'</initValue>
       <name>Borrower1LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

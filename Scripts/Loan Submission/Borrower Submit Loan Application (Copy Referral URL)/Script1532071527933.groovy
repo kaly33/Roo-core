@@ -19,9 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Admin Dashboard/Verify Admin is able to Copy Referral Link'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Admin Dashboard/Verify Admin is able to Copy Referral Link'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/Sign Up'), [('Email') : GlobalVariable.BorrowerEmail1, ('FirstName') : GlobalVariable.Borrower1FirstName , ('LastName') : GlobalVariable.Borrower1LastName, ('Password') : GlobalVariable.Password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/Sign Up'), [('Email') : GlobalVariable.BorrowerEmail1, ('FirstName') : GlobalVariable.Borrower1FirstName
+        , ('LastName') : GlobalVariable.Borrower1LastName, ('Password') : GlobalVariable.Password], 
+    FailureHandling.STOP_ON_FAILURE)
 
 /*Borrower Details*/
 WebUI.callTestCase(findTestCase('Loan Pages/Borrower Details'), [:], FailureHandling.CONTINUE_ON_FAILURE)
@@ -46,3 +49,4 @@ WebUI.callTestCase(findTestCase('Loan Pages/Application Release'), [:], FailureH
 
 /*Econsent*/
 WebUI.callTestCase(findTestCase('Loan Pages/Econsent page'), [:], FailureHandling.STOP_ON_FAILURE)
+

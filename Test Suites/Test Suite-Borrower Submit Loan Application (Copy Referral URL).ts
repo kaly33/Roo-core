@@ -4,7 +4,7 @@
    <name>Test Suite-Borrower Submit Loan Application (Copy Referral URL)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-20T11:35:32</lastRun>
+   <lastRun>2018-08-07T16:57:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

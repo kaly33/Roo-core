@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Copy referral Link Test Suite,,,2018-05-30 18:47:47,2018-05-30 18:47:52,4.921s,FAILED
-,,,,,,
-Test Cases/Admin Dashboard/Copy Referral Link,,,2018-05-30 18:47:49,2018-05-30 18:47:51,2.599s,FAILED
-Start listener action : sampleBeforeTestCase,,,2018-05-30 18:47:49,2018-05-30 18:47:49,0.014s,PASSED
-callTestCase,,,2018-05-30 18:47:49,2018-05-30 18:47:49,0.247s,FAILED
-Start listener action : sampleAfterTestCase,,,2018-05-30 18:47:49,2018-05-30 18:47:49,0.006s,PASSED

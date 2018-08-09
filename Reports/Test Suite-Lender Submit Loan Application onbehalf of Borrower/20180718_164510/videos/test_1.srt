@@ -1,8 +1,0 @@
-1
-00:00:01,173 --> 00:00:01,174
-1. callTestCase
-
-2
-00:00:01,623 --> 00:00:01,624
-1. com.common.util.LoginHelper.LoginWithAdmin
-

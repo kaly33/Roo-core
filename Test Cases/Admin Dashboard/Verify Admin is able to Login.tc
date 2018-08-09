@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Admin is able to Login</description>
    <name>Verify Admin is able to Login</name>
    <tag></tag>
    <comment></comment>

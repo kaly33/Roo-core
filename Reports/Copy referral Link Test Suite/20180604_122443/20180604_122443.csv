@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Copy referral Link Test Suite,Chrome 66.0.3359.181,,2018-06-04 12:24:45,2018-06-04 12:25:44,58.741s,FAILED
-,,,,,,
-Test Cases/Admin Dashboard/Verify Admin is able to Copy Referral Link,Chrome 66.0.3359.181,,2018-06-04 12:24:57,2018-06-04 12:25:43,46.516s,FAILED
-Start listener action : sampleBeforeTestCase,Chrome 66.0.3359.181,,2018-06-04 12:24:57,2018-06-04 12:25:07,10.338s,PASSED
-com.common.util.LoginHelper.LoginWithAdmin,Chrome 66.0.3359.181,,2018-06-04 12:25:08,2018-06-04 12:25:41,32.677s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 66.0.3359.181,,2018-06-04 12:25:41,2018-06-04 12:25:41,0.909s,PASSED

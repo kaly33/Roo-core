@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify Borrower is able to Submit Loan Application - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e30e9723-f5a8-4943-aab6-d68cfff29feb</testCaseGuid>
-</TestCaseEntity>

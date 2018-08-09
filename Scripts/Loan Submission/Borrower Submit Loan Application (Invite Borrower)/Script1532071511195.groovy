@@ -24,19 +24,19 @@ WebUI.callTestCase(findTestCase('Admin Dashboard/Verify Admin is able to Invite 
 
 WebUI.callTestCase(findTestCase('Common/Gmail Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Common/Page_Gmail/Search input box'), 3)
+WebUI.waitForElementPresent(findTestObject('Common/Gmail/Search input box'), 3)
 
-WebUI.setText(findTestObject('Common/Page_Gmail/Search input box'), 'invites you to start a home loan application')
+WebUI.setText(findTestObject('Common/Gmail/Search input box'), 'invites you to start a home loan application')
 
-WebUI.click(findTestObject('Common/Page_Gmail/Search icon'))
+WebUI.click(findTestObject('Common/Gmail/Search icon'))
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Common/Page_Gmail/Mail'), 3)
+WebUI.waitForElementVisible(findTestObject('Common/Gmail/Mail'), 3)
 
-WebUI.click(findTestObject('Common/Page_Gmail/Mail'))
+WebUI.click(findTestObject('Common/Gmail/Mail'))
 
-WebUI.click(findTestObject('Common/Page_Gmail/Start Application'))
+WebUI.click(findTestObject('Common/Gmail/Start Application'))
 
 WebUI.switchToWindowIndex(1)
 

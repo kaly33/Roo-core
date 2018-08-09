@@ -21,17 +21,22 @@ import internal.GlobalVariable as GlobalVariable
 
 //WebUI.openBrowser("https://roostify-blueprint-dev.herokuapp.com/users/sign_up?a=blueprintdev")
 WebUI.waitForPageLoad(3)
+
 WebUI.setText(findTestObject('Common/Sign Up/input_userfirst_name'), FirstName)
+
 WebUI.setText(findTestObject('Common/Sign Up/input_userlast_name'), LastName)
+
 WebUI.setText(findTestObject('Common/Sign Up/input_User email'), Email)
+
 WebUI.setText(findTestObject('Common/Sign Up/input_userpassword'), Password)
+
 WebUI.click(findTestObject('Common/Sign Up/input_TermsnConditions_check'))
+
 WebUI.click(findTestObject('Common/Sign Up/button_Start Application'))
-String dashboardName= WebUI.getText(findTestObject('Common/Sign In/text_Dashboard Name'))
-String fullName=WebUI.concatenate([FirstName,' ',LastName] as String[], FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyMatch(dashboardName, fullName, true)
-	
 
+String dashboardName = WebUI.getText(findTestObject('Common/Sign In/text_Dashboard Name'))
 
+String fullName = WebUI.concatenate((([FirstName, ' ', LastName]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
+not_run: WebUI.verifyMatch(dashboardName, fullName, true)
 

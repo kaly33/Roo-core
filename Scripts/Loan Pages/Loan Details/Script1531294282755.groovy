@@ -23,9 +23,11 @@ import org.openqa.selenium.Keys as Keys
 //Loan Details
 WebUI.click(findTestObject('Object Repository/Loan Pages/Loan Details/Loan Tab'))
 
-WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next'))
+WebUI.waitForPageLoad(3)
 
-WebUI.waitForPageLoad(2)
+WebUI.waitForElementClickable(findTestObject('Loan Pages/Loan Details/button_Next'), 2)
+
+WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next'))
 
 WebUI.click(findTestObject('Loan Pages/Loan Details/input_home_purchase_checkbox'))
 
@@ -41,16 +43,26 @@ WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_State_L
 
 WebUI.setText(findTestObject('Loan Pages/Loan Details/input_loan_City'), 'vegas')
 
-not_run: WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_Country_Targetmarket'), 
-    '001', false)
+WebUI.waitForElementNotHasAttribute(findTestObject('Loan Pages/Loan Details/select_Country_Targetmarket'), 
+    'disabled', 3)
+
+WebUI.selectOptionByValue(findTestObject('Loan Pages/Loan Details/select_Country_Targetmarket'), '001', 
+    true)
+
+WebUI.sendKeys(findTestObject('Object Repository/Loan Pages/Loan Details/input_Ideal purchase price'), 
+    '330000')
 
 WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Loan Pages/Loan Details/input_Down Payment Percentage (1)'), '5')
+WebUI.click(findTestObject('Loan Pages/Loan Details/input_real estate agent check'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'))
+WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('Loan Pages/Loan Details/input_Down Payment Percentage (1)'), '5', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Loan Pages/Loan Details/button_Next (1)'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Loan Pages/Loan Details/input_loan_application_mortgag'))
 

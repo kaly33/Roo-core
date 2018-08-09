@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Invite Borrower Test Suite,Firefox 47.0,,2018-06-12 16:43:05,2018-06-12 16:43:30,24.607s,FAILED
-,,,,,,
-Test Cases/Admin Dashboard/Verify Admin is able to Invite Borrower,Firefox 47.0,,2018-06-12 16:43:06,2018-06-12 16:43:30,23.992s,FAILED
-Start listener action : sampleBeforeTestCase,Firefox 47.0,,2018-06-12 16:43:06,2018-06-12 16:43:21,15.519s,PASSED
-com.common.util.LoginHelper.LoginWithAdmin,Firefox 47.0,,2018-06-12 16:43:21,2018-06-12 16:43:28,6.171s,FAILED
-Start listener action : sampleAfterTestCase,Firefox 47.0,,2018-06-12 16:43:28,2018-06-12 16:43:28,0.008s,PASSED

@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.navigateToUrl('https://dev.roostify.com')
+WebUI.openBrowser('https://dev.roostify.com')
 
 WebUI.setText(findTestObject('Login with different users/input_useremail'), varUser)
 
